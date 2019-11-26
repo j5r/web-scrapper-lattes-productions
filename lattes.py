@@ -13,18 +13,20 @@ do executável em sua máquina.
 from selenium import webdriver
 from tkinter import Tk, Button, Label
 import shelve
+from bs4 import BeautifulSoup as BS
 from time import sleep
 
 chrome_driver_address_of_executable = "/home/junior/chromedriver"
-lattes = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4787743D1"
-teste = "https://github.com/j5r/web-scrapper-lattes-productions"
+murilo = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4781474Y6"
+marar = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4787743D1"
+eduardo = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775855H8"
 
 
 
 
 
 
-class LattesHTML:
+class LattesBS:
     def __init__(self,**kw):
         kw.setdefault("url",None)
         kw.setdefault("cdriver","/home/junior/chromedriver")
@@ -45,6 +47,7 @@ class LattesHTML:
 
 
     def init(self):
+        """The initializer method. It saves the data into a shelve db."""
         kw = self.__kw
         # 1: Browser
         self.browser = webdriver.Chrome(kw["cdriver"])
@@ -63,6 +66,7 @@ class LattesHTML:
         self.button.pack()
         self.tk.mainloop()
         print("Getting the page and saving into a <shelve> file.")
+        print("The page saved is a string object with HTML content.")
         ####
 
         # 3: Data
@@ -76,13 +80,15 @@ class LattesHTML:
 
         self.__quitBROWSER()
 
-    def getPage(self):
+    def get(self):
+        """Returns a BeautifulSoup object."""
         self.__db = shelve.open(self.__file_name)
-        ans = self.__db["lattes"]
+        ans = BS(self.__db["lattes"],"html.parser")
         self.__db.close()
         return ans
 
     def getUrl(self):
+        """Return the main url."""
         self.__db = shelve.open(self.__file_name)
         ans = self.__db["url"]
         self.__db.close()
@@ -96,3 +102,10 @@ class LattesHTML:
     def __quitBROWSER(self):
         self.browser.quit()
 
+
+
+
+
+murilo = LattesHTML(url=murilo)
+marar = LattesHTML(url=marar)
+eduardo = LattesHTML(url=eduardo)
