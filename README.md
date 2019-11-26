@@ -25,6 +25,8 @@ LINUX: If you do not have the PIP Package Manager installed on linux, try this b
 
 <pre>
 <code style="color:#289548">
+from lattes import LattesBS
+
 junior = LattesBS(url="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4440740Y4",
               cdriver="/home/junior/chromedriver")
 
