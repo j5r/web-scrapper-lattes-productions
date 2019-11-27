@@ -102,10 +102,18 @@ class LattesBS:
     def __quitBROWSER(self):
         self.browser.quit()
 
+    def html(self):
+        soup = self.get()
+        nome = self.__file_name.split(".shelve")[0] + ".html"
+        f = open(nome,"w")
+        f.write(soup.decode())
+        f.close()
 
 
 
 
-murilo = LattesHTML(url=murilo)
-marar = LattesHTML(url=marar)
-eduardo = LattesHTML(url=eduardo)
+
+
+murilo = LattesBS(url=murilo)
+marar = LattesBS(url=marar)
+eduardo = LattesBS(url=eduardo)

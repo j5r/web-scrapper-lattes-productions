@@ -54,7 +54,13 @@ class OrcidBS:
         self.__db.close()
         return ans
 
-
+    def html(self):
+        self.__db = shelve.open(self.__file_name)
+        nome = self.__file_name.split(".shelve")[0] + ".html"
+        f = open(nome,"w")
+        f.write(self.__db["orcid"].decode())
+        self.__db.close()
+        f.close()
 
 
 
