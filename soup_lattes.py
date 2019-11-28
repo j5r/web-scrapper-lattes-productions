@@ -24,13 +24,18 @@ class Producoes:
         ls = self.getSoupList()
         contador = 0
         for soup in ls:
+            soup = soup.div.find_next_sibling("div").div
+            soup.div.clear()
             contador += 1
             # Uma tupla com os itens interessantes
             self.__producoes.append(
-                (contador,
-                Producoes.__getDoiFromProducoesItem(soup),
-                soup,
-                    )
+                {"item": contador,
+                "doi":Producoes.__getDoiFromProducoesItem(soup),
+                "ano":Producoes.__getAnoFromProducoesItem(soup),
+                "jcr":Producoes.__getJCRFromProducoesItem(soup),
+                "text":Producoes.__gettext__(soup),
+                "soup":soup,
+                    }
             )
         self.__answer_builded = 1
 
@@ -42,10 +47,10 @@ class Producoes:
         return self.__producoes
 
 
-    def __getDoiFromProducoesItem(producoesItem):
+    def __getDoiFromProducoesItem(soup):
         """retorna o http://doi.dx/..."""
         try:
-            doiUrl = producoesItem.find("a",\
+            doiUrl = soup.find("a",\
                     {"class":"icone-producao icone-doi"}
                     )["href"]
         except Exception as e:
@@ -54,11 +59,31 @@ class Producoes:
         return doiUrl.strip()
 
 
+    def __getAnoFromProducoesItem(soup):
+        try:
+            ano = soup.find("span",
+                    {"data-tipo-ordenacao":"ano"}
+                    ).string
+        except Exception as e:
+            #print(e)
+            return None
+        return ano.strip()
 
 
+    def __getJCRFromProducoesItem(soup):
+        try:
+            jcr = soup.find("span",
+                    {"data-tipo-ordenacao":"jcr"}
+                    ).string
+        except Exception as e:
+            #print(e)
+            return None
+        return jcr.strip()
 
-
-
+    def __gettext__(soup):
+        for i in soup.find_all("span"):
+            i.clear()
+        return soup.getText().strip()
 
 
 
