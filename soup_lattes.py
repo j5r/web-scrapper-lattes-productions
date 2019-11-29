@@ -82,10 +82,14 @@ class Producoes:
 
     def __gettext__(soup):
         for i in soup.find_all("span"):
-            i.clear()
+            try:
+                i.clear()
+            except Exception as e:
+                #print(e)
+                return None
         return soup.getText().strip()
 
 
 
 
-eduardo = Producoes(eduardo)
+eduardosoup = Producoes(eduardo)
