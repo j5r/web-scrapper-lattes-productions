@@ -41,6 +41,7 @@ class Excel:
         kw.setdefault("doi","")
         kw.setdefault("jcr","")
 
+        kw = Excel.__treatNones(kw)
         try:
             self.__LATTES.contador += 1
             self.__LATTES.append([str(self.__LATTES.contador),
@@ -59,6 +60,7 @@ class Excel:
         kw.setdefault("doi","")
         kw.setdefault("jcr","")
 
+        kw = Excel.__treatNones(kw)
         try:
             self.__ORCID.contador += 1
             self.__ORCID.append([str(self.__ORCID.contador),
@@ -75,6 +77,7 @@ class Excel:
         kw.setdefault("artigo","")
         kw.setdefault("jcr","")
 
+        kw = Excel.__treatNones(kw)
         try:
             self.__DADOS.contador += 1
             self.__DADOS.append([str(self.__DADOS.contador),
@@ -98,3 +101,10 @@ class Excel:
         else:
             print("Dê um nome para o arquivo pelo menos uma vez.")
 
+    def __treatNones(kw):
+        for key in kw.keys():
+            if kw[key] is None:
+                kw[key] = "---"
+            if kw[key] == "None":
+                kw[key] = "---"
+        return kw

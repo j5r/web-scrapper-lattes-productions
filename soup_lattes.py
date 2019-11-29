@@ -33,7 +33,7 @@ class Producoes:
                 "doi":Producoes.__getDoiFromProducoesItem(soup),
                 "ano":Producoes.__getAnoFromProducoesItem(soup),
                 "jcr":Producoes.__getJCRFromProducoesItem(soup),
-                "text":Producoes.__gettext__(soup),
+                "artigo":Producoes.__gettext__(soup),
                 "soup":soup,
                     }
             )
@@ -89,7 +89,19 @@ class Producoes:
                 return None
         return soup.getText().strip()
 
+    def getItem(self,index):
+        return self.get()[index]
+
+    def printItem(self,index):
+        item = self.getItem(index)
+        s = "Item nº: {}\nDOI:     {}\nANO:     {}\nJCR:     {}\n"
+        s += "ITEM:    \n\v{}"
+        s = s.format(item["item"],item["doi"],item["ano"],item["jcr"],
+                item["artigo"])
+        print(s)
 
 
 
-eduardosoup = Producoes(eduardo)
+
+
+

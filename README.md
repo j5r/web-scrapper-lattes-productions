@@ -9,52 +9,24 @@ For installing all requirements, you may try one of these:
 (when you have just the Python3 version)
 
 LINUX: If you do not have the PIP Package Manager installed on linux, try this before the previous step:
-<p style="color:blue">sudo apt-get install python3-pip</p>
+<ul><li><p style="color:blue">sudo apt-get install python3-pip</p></li></ul>
+
+<p style="color:red">If you can not install all requirements with the commands above, try install them manually
+by typing
+<ul> <li style="color:#a33">
+pip(3) install selenium bs4 openpyxl
+</li></ul>
+</p>
 
 
 
+# ChromeDriver
+You must to have the ChromeDriver in your machine. You can get it [Here](https://chromedriver.chromium.org/downloads).
+It do not need to be installed, just downloaded. You will need to use the path where the ChromeDriver is in the code.
+More specifically, the "chrome_drive_url" parameter in the "main.py" file need to take that path.
 
+ - Remark: You must to download a version compatible with your GoogleChrome browser version. To see your browser's 
+version, look for "About Google Chrome (pt-br: Sobre o Google Chrome)" in the menu, as illustrated below.
 
-
-
-
-
-
-#Example of use
-##lattes.py
-
-<pre>
-<code style="color:#289548">
-from lattes import LattesBS
-
-junior = LattesBS(url="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4440740Y4",
-              cdriver="/home/junior/chromedriver")
-
-junior.init() #this downloads the Lattes CV webpage, use it just once
-
-soup = junior.get() # this is a BeautifulSoup object
-
-</code>
-</pre>
-
-
-
-
-
-
-
-
-
-#Example of use
-## xlsxmanager.py
-. . . (in development)
-
-
-
-
-
-
-
-
-
+![Versão do Google Chrome](https://www.howtogeek.com/wp-content/uploads/2017/03/fixed-settings.png)
 

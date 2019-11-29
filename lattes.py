@@ -16,15 +16,6 @@ import shelve
 from bs4 import BeautifulSoup as BS
 from time import sleep
 
-chrome_driver_address_of_executable = "/home/junior/chromedriver"
-murilo = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4781474Y6"
-marar = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4787743D1"
-eduardo = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4775855H8"
-
-
-
-
-
 
 class LattesBS:
     def __init__(self,**kw):
@@ -44,9 +35,16 @@ class LattesBS:
         ####
 
         self.__kw = kw
+        try:
+            f = open(self.__file_name,"r")
+        except FileNotFoundError:
+            self.download()
+        else:
+            f.close()
 
 
-    def init(self):
+
+    def download(self):
         """The initializer method. It saves the data into a shelve db."""
         kw = self.__kw
         # 1: Browser
@@ -58,7 +56,8 @@ class LattesBS:
         self.tk = Tk()
         self.tk.geometry("450x100+50+50")
         self.msg = Label(self.tk)
-        self.msg["text"] = "Quando conseguir logar, clique neste botão."
+        self.msg["text"] = "Após <<SUBMETER>> o código de segurança\n"+\
+                "anti-robô, clique neste botão."
         self.msg.pack()
         self.button = Button(self.tk)
         self.button["text"] = "Pronto!"
@@ -114,6 +113,4 @@ class LattesBS:
 
 
 
-murilo = LattesBS(url=murilo)
-marar = LattesBS(url=marar)
-eduardo = LattesBS(url=eduardo)
+
