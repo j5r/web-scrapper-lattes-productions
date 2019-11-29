@@ -1,5 +1,11 @@
 # Web-scrapper-lattes-productions
 This is an web scrapper for getting data about one's productions in Lattes CV implemented in Python3.
+To get Python3, download it from [here](https://www.python.org). For Linux users, you may install it 
+by the terminal with 
+
+ - sudo apt-get install python3.*
+
+in which * can be 6, 7 or 8. I recommend use 7.
 
 For installing all requirements, you may try one of these:
 
