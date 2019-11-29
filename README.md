@@ -1,5 +1,5 @@
 # Web-scrapper-lattes-productions
-You can keep up with this help in this [video(pt-br)](http://www.youtube.com).
+You can keep up with this help in this [video(pt-br)](https://youtu.be/HE90vC02sMQ).
 ## Step 0: installations - Python3, (pip), Selenium, BS4, OpenPyXL
 This is an web scrapper for getting data about one's productions in Lattes CV implemented in Python3.
 To get Python3, download it from [here](https://www.python.org). 

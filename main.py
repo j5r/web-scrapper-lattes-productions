@@ -20,7 +20,6 @@ my_lattes_url = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K477
 
 
 my_lattes = LattesBS(url=my_lattes_url,cdriver=chrome_drive_url)
-#my_lattes.download() # do this at least once
 my_productions = Producoes(my_lattes)
 
 
