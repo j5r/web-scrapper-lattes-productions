@@ -29,13 +29,14 @@ class OrcidBS:
         ####
 
         self.__kw = kw
+        self.init()
 
 
     def init(self):
         """The initializer method. It saves the data into a shelve db."""
         # 3: Data
         self.__db = shelve.open(self.__file_name)
-        self.__db["orcid"] = request.urlopen(self.__kw["url"]).read()
+        self.__db["orcid"] = request.urlopen(self.__kw["url"]).read().decode()
         self.__db["url"] = self.__kw["url"]
         self.__db.close()
         ####
@@ -55,11 +56,10 @@ class OrcidBS:
         return ans
 
     def html(self):
-        self.__db = shelve.open(self.__file_name)
+        soup = self.get()
         nome = self.__file_name.split(".shelve")[0] + ".html"
         f = open(nome,"w")
-        f.write(self.__db["orcid"].decode())
-        self.__db.close()
+        f.write(soup.decode())
         f.close()
 
 
