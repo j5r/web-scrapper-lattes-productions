@@ -10,6 +10,19 @@ class Producoes:
                     ).find_all("div",
                     {"class":"artigo-completo"}
                 )
+        self.novo = self.__soup.find("a",
+                {"name":"TrabalhosPublicadosAnaisCongresso"}
+                ).parent.parent.find_next_siblings()
+
+        try:
+            self.novo = self.novo[:self.novo.index(list(filter(lambda item:\
+                        item.find("a",{"name":\
+                        "TrabalhosPublicadosAnaisCongresso"}),\
+                        self.novo))[0])]
+        except:
+            self.novo = []
+
+
         self.__answer_builded = 0
         self.__producoes = []
 

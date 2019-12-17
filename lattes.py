@@ -20,27 +20,38 @@ from time import sleep
 class LattesBS:
     def __init__(self,**kw):
         kw.setdefault("url",None)
+        kw.setdefault("filename",None)
         kw.setdefault("cdriver","/home/junior/chromedriver")
 
-        if kw["url"] is None:
+
+        if kw["filename"] is not None:
+            self.__file_name = kw["filename"] + ".shelve"
+            self.__db = shelve.open(self.__file_name)
+            file_page = open(kw["filename"],"rb")
+            page = file_page.read().decode("latin8")
+            file_page.close()
+            self.__db["lattes"] = page
+            self.__db.close()
+        elif kw["url"] is None:
             msg = "You must to give a lattes-page url with\n\t"
-            msg += "LattesHTML(url=theUrl, cdriver=ChromeDriverDirectory)"
+            msg += "LattesBS(url=theUrl, cdriver=ChromeDriverDirectory)"
             raise SyntaxError(msg)
-
-        # 0: File Name for temporary file (file to save the main data)
-        kw.setdefault("filename",kw["url"].split("id=")[1])
-        if not kw["filename"].endswith(".shelve"):
-            kw["filename"] += ".shelve"
-        self.__file_name = kw["filename"]
-        ####
-
-        self.__kw = kw
-        try:
-            f = open(self.__file_name,"r")
-        except FileNotFoundError:
-            self.download()
         else:
-            f.close()
+            # 0: File Name for temporary file (file to save the main data)
+            kw["filename"] = kw["url"].split("id=")[1]
+            if not kw["filename"].endswith(".shelve"):
+                kw["filename"] += ".shelve"
+            self.__file_name = kw["filename"]
+
+            self.__kw = kw
+
+            try:
+                f = open(self.__file_name,"r")
+            except FileNotFoundError:
+                self.download()
+            else:
+                f.close()
+        self.__kw = kw
 
 
 

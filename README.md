@@ -47,6 +47,11 @@ version, look for "About Google Chrome (pt-br: Sobre o Google Chrome)" in the me
 
 
 # Use
+## LATEST VERSION:
+All you need is choose whether you have the HTML file downloaded from the CV Lattes or not.
+If so, just change the status of the variable **use_html_file** at the 15th line to "True".
+If not, set it to "False" and  just follow the steps below.
+
 ## Step 2: setting the other parameters:
 You need to pass an url in the "main.py" file. More specifically, the "my_lattes_url" must to take an url like this one
 
