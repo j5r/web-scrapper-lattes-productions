@@ -1,54 +1,18 @@
-"""
-Link to obtain the ChromeDriver for GoogleChrome browser:
-    https://chromedriver.chromium.org/downloads
+import os
+import main_package
 
-Set the <chrome_drive_url> bottom with the location of the
-chromedriver on your machine.
-"""
-from lattes import *
-from soup_lattes import *
-from xlsxmanager import *
-from tkinter import Tk, filedialog
+lista_de_arquivos_html = filter(lambda x: x.endswith(".html"), os.listdir())
 
 
-
-use_html_file = True
-
-if use_html_file:
-    root = Tk()
-    html_filename =  filedialog.askopenfilename(initialdir = ".",title = "Escolha um arquivo html",filetypes = (("arquivos html","*.html"),("all files","*.*")))
-    root.destroy()
+for arquivo in lista_de_arquivos_html:
+    nome = arquivo.split("(")[1].split(")")[0].replace(" ","_") + ".nk"
+    os.rename(arquivo, nome)
 
 
-chrome_drive_url = "/home/junior/chromedriver"
-excel_file_name = "planilha"
-my_lattes_url = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4240480A3"
+lista_de_arquivos_nk = filter(lambda x: x.endswith(".nk"), os.listdir())
 
 
 
-if not use_html_file:
-    # Para abrir o navegador, use a sintaxe
-    my_lattes = LattesBS(url=my_lattes_url,cdriver=chrome_drive_url)
-
-else:
-    # Para abrir um arquivo html, use a sintaxe, substituindo
-    my_lattes = LattesBS(filename=html_filename,cdriver=chrome_drive_url)
-
-my_productions = Producoes(my_lattes)
-
-
-
-
-
-excel = Excel()
-for itemLattes in my_productions.get():
-    try:
-        excel.lattes(**itemLattes)
-        excel.dados(**itemLattes)
-    except Exception as e:
-        print(e)
-excel.save(excel_file_name)
-
-print(f"THE END!!! The file <<{excel_file_name}>> has been generated.")
-
+for i in lista_de_arquivos_nk:
+    main_package.pega_arquivo_nk_e_faz_tudo(i)
 

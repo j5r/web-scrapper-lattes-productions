@@ -1,0 +1,2868 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0568)http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<link href="http://buscatextual.cnpq.br/buscatextual/images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Currículos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="currículo,curriculo,curriculum,cv,vitae,lattes,produção,producao,científica,cientifica,Brasil" http-equiv="keywords">
+<title>Currículo do Sistema de Currículos Lattes (Vando Narciso)</title>
+<link type="text/css" rel="stylesheet" href="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/import.css">
+<link type="text/css" href="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/espelho.css">
+<link type="text/css" rel="stylesheet" href="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/impressao.css">
+<script type="text/javascript" async="" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/ga.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jquery.min.js"></script><script src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jquery.cookie.js" type="text/javascript"></script><script src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/tooltip-position.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jquery.tipsy.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jquery.megamenu.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/byOrder.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/font-size.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/cv_citacoes.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/hint_ajax.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/menuFlowScroll.js"></script><script type="text/javascript" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</head>
+<body>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido" tabindex="0"> Currículo Lattes - Busca Textual - Visualização do Currículo </h1>
+<a href="http://lattes.cnpq.br/" title="Currículo Lattes" target="_blank" tabindex="1"><img title="Currículo Lattes" alt="Currículo Lattes" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/titulo-sistema.png"></a>
+</div>
+<div class="menu-header" style="position: absolute; top: 15px;">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;idiomaExibicao=2" class="btn-br" tabindex="2">English</a><a title="Imprimir currículo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()" tabindex="3"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)" tabindex="4"></a><a title="Fonte padrão" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)" tabindex="5"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)" tabindex="6"></a><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&amp;idcnpq=3038850246788286" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" tabindex="7"></a><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php" tabindex="8"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/" tabindex="9">
+<h2 tabindex="0">CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type="text/javascript">menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade" tabindex="10" _megamenupos="0pos"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="14" _megamenupos="1pos"><span></span>Formação</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador" tabindex="17" _megamenupos="2pos"><span></span>Atuação</a>
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProjetosPesquisa" class="acessibilidade separador" tabindex="22" _megamenupos="3pos"><span></span>Projetos</a>
+		
+	<script type="text/javascript">menu.iniciar("projetos");</script>
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProducoesCientificas" class="acessibilidade separador" tabindex="25" _megamenupos="4pos"><span></span>Produções</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#EducacaoPopularizacaoCTA" class="acessibilidade separador" tabindex="58" _megamenupos="5pos"><span></span>Educação e Popularização de C &amp; T</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Eventos" class="acessibilidade separador" tabindex="73" _megamenupos="6pos"><span></span>Eventos</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Orientacoes" class="acessibilidade separador" tabindex="76" _megamenupos="7pos"><span></span>Orientações</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Bancas" class="acessibilidade separador" tabindex="79" _megamenupos="8pos"><span></span>Bancas</a>
+		
+	
+		
+		
+		
+		
+	<script type="text/javascript">menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador" tabindex="82" _megamenupos="9pos"><span></span>+</a>
+		
+	
+		
+		
+		
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/servletrecuperafoto"><div class="infpessoa">
+<h2 class="nome" tabindex="0">Vando Narciso</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endereço para acessar este CV: http://lattes.cnpq.br/3038850246788286</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">3038850246788286</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>Última atualização do currículo em 17/02/2020</li>
+</ul>
+</div><br class="clear"><div class="title-wrapper">
+<h1 class="ui-hidden" tabindex="0"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação em Matemática Licenciatura Plena pela Universidade Federal de Mato Grosso do Sul (1999), graduação em Letras Licenciatura Plena pelo Centro Universitário da Grande Dourados (1998), especialização em Matemática pela Universidade Estadual de Maringá(2002), mestrado em Matemática pela Universidade Estadual de Maringá (2003) e Doutorado em Matemática pelo ICMC-USP, São Carlos -SP (2010). Professor efetivo da Universidade Estadual de Mato Grosso do Sul. Trabalha na área de Análise com Equações Diferenciais Parciais.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Identificacao" tabindex="84">
+<h1 tabindex="0">Identificação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vando Narciso</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">NARCISO, V.;NARCISO, VANDO</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/3038850246788286</div>
+</div>
+</div>
+</div><br class="clear"><div class="title-wrapper">
+<a name="Endereco" tabindex="85">
+<h1 tabindex="0">Endereço</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Estadual de Mato Grosso do Sul, Núcleo de Ciências Exatas, Unidade de Dourados. <br class="clear">Rodovia Dourados Itahun<br class="clear">Cidade Universitária<br class="clear">79800000 - Dourados, MS - Brasil - Caixa-postal: 351<br class="clear">Telefone: (67) 4119066<br class="clear">Fax: (67) 39022640<br class="clear">URL da Homepage: <a target="blank" href="http://www.uems.br/" tabindex="86">http://www.uems.br</a></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao" tabindex="87">
+<h1 tabindex="0">Formação acadêmica/titulação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Programa de Pós - Graduação em Matemática<span class="ajaxCAPES" data-param="&amp;codigoCurso=&amp;nivelCurso=D"></span>. <br class="clear">Instituto de Ciências Matemáticas e de Computação - USP - São Carlos, ICMC - USP, Brasil.
+		
+	<br class="clear">Título: Problema de Valores de Fronteira não Locais, Ano de obtenção: 2010. <br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/5313392830234233" tabindex="88"><img src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/logolattes.gif"></a>Ma To Fu. <br class="clear">Bolsista do(a): Fundação para o Desenvolvimento Científico e Tecnológico de Cascavel, FUNDETEC/PR, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise. <br class="clear">Grande Área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise / Especialidade: Equações Diferenciais Parciais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Matemática<span class="ajaxCAPES" data-param="&amp;codigoCurso=40004015013P7&amp;nivelCurso=M"></span>. <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Sobre Um Sistema do Tipo Timoshenko, Baseado na Equação de Carrier,Ano de Obtenção: 2003.<br class="clear">Orientador: <a class="icone-lattes" target="_blank" href="http://lattes.cnpq.br/2539621872552049" tabindex="89"><img src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/logolattes.gif"></a>Alfredo Tadeu Cousin.<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Palavras-chave: Carrier; Existência; Timoshenko.<br class="clear">Grande área: Ciências Exatas e da Terra<br class="clear">Setores de atividade: Outros. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Matemática<span class="ajaxCAPES" data-param="&amp;codigoCurso=&amp;nivelCurso="></span>.  (Carga Horária: 360h). <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear">Título: Teorema de Existência e Unicidade para Problemas de Valor Inicial de Primeira Ordem. <br class="clear">Orientador: Alfredo Tadeu Cousin. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Matemática Licenciatura Plena<span class="ajaxCAPES" data-param="&amp;codigoCurso=&amp;nivelCurso="></span>. <br class="clear">Universidade Federal de Mato Grosso do Sul, UFMS, Brasil.
+		
+	<br class="clear">Título: Comportamento Gráfico de uma Função do 2° Grau Visto Sob seu Vários Parâmetros. <br class="clear">Orientador: Abramo Loro Neto. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Letras Licenciatura Plena<span class="ajaxCAPES" data-param="&amp;codigoCurso=&amp;nivelCurso="></span>. <br class="clear">Centro Universitário da Grande Dourados, UNIGRAN, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado" tabindex="90">
+<h1 tabindex="0">Pós-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear">Universidade Estadual de Londrina, UEL, Brasil.
+		
+	<br class="clear">Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear">Grande área: Ciências Exatas e da Terra</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="FormacaoComplementar" tabindex="91">
+<h1 tabindex="0">Formação Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Equações Diferenciais Ordinárias.  (Carga horária: 180h). <br class="clear">Instituto de Ciências Matemáticas e de Computação, ICMC - USP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Análise Real e Álgebra Linear.  (Carga horária: 120h). <br class="clear">Universidade Estadual de Maringá, UEM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AtuacaoProfissional" tabindex="92">
+<h1 tabindex="0">Atuação Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear"><div class="inst_back">
+<b>Universidade Estadual de Mato Grosso do Sul, UEMS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Efetivo, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Efetivo, Carga horária: 40</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Contratado, Carga horária: 40</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Universidade Estadual de Mato Grosso do Sul, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador mestrado - PROFMAT/UEMS.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Profissional em Matemática - PROFMAT, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">MA23 Geometria Analítica<br class="clear">MA40 Tópicos em Matemática<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Álgebra Linear<br class="clear">Estruturas Algebricas<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - 06/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Universidade Estadual de Mato Grosso do Sul, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Coordenador do Mestrado Profissional em Matemática - PROFMAT/UEMS.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2006 - 3/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística<br class="clear">Teoria dos Números<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2006 - 3/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Cálculo Diferencial e Integral I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2005 - 3/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Divisão de Pesquisa Propp, Unidade de Nova Andradina. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#LP_%C3%81rea:%20An%C3%A1lise%20e%20Sub-%C3%A1rea:%20equa%C3%A7%C3%B5es%20diferenciais%20parciais;%20equa%C3%A7%C3%B5es%20diferenciais%20ordin%C3%A1rias;%20sistemas%20din%C3%A2micos" tabindex="93">Área: Análise e Sub-área: equações diferenciais parciais; equações diferenciais ordinárias; sistemas dinâmicos</a><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/2004 - 3/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Divisão de Pesquisa Propp, Unidade de Dourados. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear">Consultor.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2004 - 02/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Fundamentos de Matemática II<br class="clear">Cálculo Diferencial e Integral I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2004 - 02/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Turismo, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2004 - 12/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Núcleo de Ciências Exatas, Núcleo de Ciências Exatas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear">Projéto de Ensino: Tópicos Especiais em Análise. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2003 - 2/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências com Habilitação em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Algebra II<br class="clear">Cálculo Diferencial e Integral I<br class="clear">Fundamentos de Matemática I<br class="clear">Fundamentos de Matemática II<br class="clear"></div>
+</div><br class="clear"><div class="inst_back">
+<b>Universidade Federal de Mato Grosso do Sul, UFMS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Substituto, Carga horária: 20</div>
+</div><br class="clear"><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2004 - 2/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Biologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Matemática I<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2004 - 2/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Análise de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2004 - 2/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Pedagogia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear"></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear">Estatística Aplicada a Educação<br class="clear">Metodologia do Ensino de Matemática<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="LinhaPesquisa" tabindex="94">
+<h1 tabindex="0">Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="LP_Área: Análise e Sub-área: equações diferenciais parciais; equações diferenciais ordinárias; sistemas dinâmicos" tabindex="95"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Área: Análise e Sub-área: equações diferenciais parciais; equações diferenciais ordinárias; sistemas dinâmicos</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosPesquisa" tabindex="96">
+<h1 tabindex="0">Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Boa Colocação, Estabilidade e Atratores para Equações Diferenciais Hiperbólicas Não Lineares" tabindex="97"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Boa Colocação, Estabilidade e Atratores para Equações Diferenciais Hiperbólicas Não Lineares<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Vando Narciso - Coordenador / Marcio Antonio Jorge da Silva - Integrante / Ma To Fu - Integrante.<br class="clear"></div>
+</div><a name="PP_Projeto PROFMAT/UEMS" tabindex="98"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto PROFMAT/UEMS<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Trata-se de um Projeto que visa o fortalecimento do curso de mestrado PROFMAT/UEMS - Mestrado Profissional em Matemática da UEMS através da disponibilização de recursos financeiros que facilitem o desenvolvimento das pesquisas e melhores condições de trabalho para professores e alunos. Isto será feito através do apoio a participação de professores e alunos em eventos nacionais e internacionais, intercambio de professores de outras universidades com os professores e alunos do PROFMAT/UEMS, compra de computadores e materiais, realização de eventos e apoio a publicação.. <br class="clear">Situação: Em andamento; Natureza: Pesquisa. <br class="clear">Alunos envolvidos:  / Mestrado profissional: (20) . <br class="clear"><br class="clear">Integrantes: Vando Narciso - Coordenador / Maristela Missio - Integrante / Rildo Pinheiro Nascimento - Integrante / Aguinaldo Lenine Alves - Integrante / Alberny Alves Ferreira - Integrante / Cosme Eustaquio Rubio Mercedes - Integrante / Jaime Rezende de Moraes - Integrante / Otavio José Neto Tinoco Neves dos santos - Integrante / Marina Rodrigues Maestre - Integrante / Odival Faccenda - Integrante / Rafael Moreira de Souza - Integrante.<br class="clear">Financiador(es): Fundação de Apoio e Desenvolvimento do Ensino, Ciência e Tecnologia do MS - Auxílio
+										financeiro.</div>
+</div><a name="PP_Dinâmica Assintótica para uma Classe de Equações Hiperbólicas" tabindex="99"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Dinâmica Assintótica para uma Classe de Equações Hiperbólicas<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Vando Narciso - Coordenador / MA, T. F. - Integrante / Maristela Missio - Integrante / Rildo Pinheiro Nascimento - Integrante / Marcio Antonio Jorge da Silva - Integrante.<br class="clear"></div>
+</div><a name="PP_Comportamento Assintóotico para uma Classe de Equações de Vigas Fracamente Dissipativas" tabindex="100"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Comportamento Assintóotico para uma Classe de Equações de Vigas Fracamente Dissipativas<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Projeto enfoca de forma integrada a modelagem e a an´alise matem´atica de diversos
+problemas do mundo real envolvendo equa¸c?oes diferenciais parciais hiperb´olicas. Do ponto
+de vista das aplica¸c?oes, o projeto contribui para o estudo do controle e estabilidade de
+sistemas dissipativos, presente em v´arias ´areas das engenharias. De especial interesse ser?ao
+os problemas de vibra¸c?oes de membranas e placas, sistemas de termo-elasticidade e ou modelagem
+matem´atica de materiais especiais. Sobre tais problemas, objetivamos estudar as
+quest?oes da solvibilidade global, estabilidade assint´otica, ?blow-up? em tempo finito, e a
+exist?encia de atratores. Do ponto de vista da matem´atica, o projeto se insere no estudo
+da teoria das equa¸c?oes diferenciais parciais n?ao lineares, teoria do grau topol´ogico e da
+teoria dos semigrupos dissipativos.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Vando Narciso - Coordenador / Ma To Fu - Integrante / Maristela Missio - Integrante / Marcio Antonio Jorge da Silva - Integrante.<br class="clear"></div>
+</div><a name="PP_Problema de Valor de Friontreira não locais" tabindex="101"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Problema de Valor de Friontreira não locais<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Trata-se de um projeto de doutorado na área de Análise Matemática, com especialização em Equações Diferenciais Não Lineares. O Projeto enfoca de uma forma integrada a modelagem, a análise matemática e a simulação computacional de diversos problemas do mundo real envolvendo equações diferenciais com termos não-locais. Ênfase maior é dada ao aspecto da Análise Matemática.. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear"><br class="clear">Integrantes: Vando Narciso - Coordenador / Ma To Fu - Integrante.<br class="clear">Financiador(es): Fundação de Apoio e Desenvolvimento do Ensino, Ciência e Tecnologia do MS - Bolsa.</div>
+</div><a name="PP_Decaimento Exponencial da Energia para um Tipo de Equações H" tabindex="102"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Decaimento Exponencial da Energia para um Tipo de Equações H<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de Pesquisa em Equações Diferenciais Parciais. <br class="clear">Situação: Concluído; Natureza: Pesquisa. <br class="clear">Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear"><br class="clear">Integrantes: Vando Narciso - Coordenador / Alfredo Tadeu Cousin - Integrante.<br class="clear">Financiador(es): Universidade Estadual de Mato Grosso do Sul - Auxílio
+										financeiro.<br class="clear">Número de produções C, T &amp; A: 8</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProjetosExtensao" tabindex="103">
+<h1 tabindex="0">Projetos de extensão</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name="PP_Tópicos em Análise no Rn" tabindex="104"></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tópicos em Análise no Rn<br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Trata-se de um Projeto de Ensino em análise no Rn.. <br class="clear">Situação: Concluído; Natureza: Extensão. <br class="clear">Alunos envolvidos: Graduação: (8) . <br class="clear"><br class="clear">Integrantes: Vando Narciso - Coordenador.<br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="RevisorPeriodico" tabindex="105">
+<h1 tabindex="0">Revisor de periódico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Mathematical Reviews</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Applied Mathematics Letters</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Electronic Journal of Differential Equations</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Acta Mathematicae Applicatae Sinica, English Series</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Zeitschrift fur Angewandte Mathematik und Mechanik</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Boundary Value Problems</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Annales Polonici Mathematici</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: JOURNAL OF MATHEMATICAL ANALYSIS AND APPLICATIONS</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2018 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: TWMS Journal of Applied and Engineering Mathematics</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2019 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Mathematische Nachrichten</div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="AreasAtuacao" tabindex="106">
+<h1 tabindex="0">Áreas de atuação</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise/Especialidade: Equações Diferenciais Parciais. <br class="clear"></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise/Especialidade: Equações Diferenciais Ordinárias. <br class="clear"></div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Idiomas" tabindex="107">
+<h1 tabindex="0">Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="ProducoesCientificas" tabindex="108">
+<h1 tabindex="0">Produções</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica" tabindex="109"></a><br class="clear"><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes" tabindex="110"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos" tabindex="111"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear"><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronológica </option><option value="2"> Número de citações Web of science </option><option value="3"> Número de citações Scopus </option><option value="4"> Numero de citações Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Importância </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Silva, M. A. J.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3934/dcdsb.2018320" target="_blank" tabindex="112"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="113">Silva, M. A. J.</a> ; <b>NARCISO, VANDO</b> ; VICENTE, A. . On a beam model related to flight structures with nonlocal energy damping. DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS-SERIES B<sup><img id="15313492_1" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="15313492"></sup>, v. 24, p. 3281-3298, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.3934/dcdsb.2018320&amp;issn=15313492&amp;volume=24&amp;issue=&amp;paginaInicial=3281&amp;titulo=On a beam model related to flight structures with nonlocal energy damping&amp;sequencial=1&amp;nomePeriodico=DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS-SERIES B" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">NARCISO, V.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3934/eect.2020021" target="_blank" tabindex="114"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="115">NARCISO, V.</a></b>. On a Kirchhoff wave model with nonlocal nonlinear damping. Evolution Equations and Control Theory<sup><img id="21632480_2" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="21632480"></sup>, v. xx, p. Dezembro 2019-xx, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.3934/eect.2020021&amp;issn=21632480&amp;volume=xx&amp;issue=&amp;paginaInicial=Dezembro 2019&amp;titulo=On a Kirchhoff wave model with nonlocal nonlinear damping&amp;sequencial=2&amp;nomePeriodico=Evolution Equations and Control Theory" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GOMES TAVARES, E. H.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10884-019-09766-x" target="_blank" tabindex="116"></a>GOMES TAVARES, E. H. ; JORGE SILVA, M. A. ; <b>NARCISO, V.</b> . Long-Time Dynamics of Balakrishnan-Taylor Extensible Beams. Journal of Dynamics and Differential Equations<sup><img id="10407294_3" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="10407294"></sup>, v. XX, p. Versão Online, 2019. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1007/s10884-019-09766-x&amp;issn=10407294&amp;volume=XX&amp;issue=&amp;paginaInicial=Versão Online&amp;titulo=Long-Time Dynamics of Balakrishnan-Taylor Extensible Beams&amp;sequencial=3&amp;nomePeriodico=Journal of Dynamics and Differential Equations" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Silva, M. A. J.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span>
+		<img src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.3934/eect.2017023" target="_blank" tabindex="117"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="118">Silva, M. A. J.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="119">NARCISO, V.</a></b> . Long-time dynamics for a class of extensible beams with nonlocal nonlinear damping. Evolution Equations and Control Theory<sup><img id="21632480_4" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="21632480"></sup>, v. 6, p. 437-470, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.3934/eect.2017023&amp;issn=21632480&amp;volume=6&amp;issue=&amp;paginaInicial=437&amp;titulo=Long-time dynamics for a class of extensible beams with nonlocal nonlinear damping&amp;sequencial=4&amp;nomePeriodico=Evolution Equations and Control Theory" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">NARCISO, VANDO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span>
+		<img src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/mma.4275" target="_blank" tabindex="120"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="121">NARCISO, VANDO</a></b>. Attractors for a plate equation with nonlocal nonlinearities. MATHEMATICAL METHODS IN THE APPLIED SCIENCES<sup><img id="01704214_5" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="01704214"></sup>, v. 40, p. 3937-3954, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1002/mma.4275&amp;issn=01704214&amp;volume=40&amp;issue=&amp;paginaInicial=3937&amp;titulo=Attractors for a plate equation with nonlocal nonlinearities&amp;sequencial=5&amp;nomePeriodico=MATHEMATICAL METHODS IN THE APPLIED SCIENCES" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">GOMES TAVARES, E. H.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/00036811.2017.1343940" target="_blank" tabindex="122"></a>GOMES TAVARES, E. H. ; JORGE SILVA, M. A. ; <b>NARCISO, V.</b> . On a decay rate for nonlinear extensible viscoelastic beams with history setting. APPLICABLE ANALYSIS<sup><img id="00036811_6" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="00036811"></sup>, v. 11, p. 1-17, 2017. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1080/00036811.2017.1343940&amp;issn=00036811&amp;volume=11&amp;issue=&amp;paginaInicial=1&amp;titulo=On a decay rate for nonlinear extensible viscoelastic beams with history setting&amp;sequencial=6&amp;nomePeriodico=APPLICABLE ANALYSIS" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">FATORI, L. H.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3934/dcds.2016067" target="_blank" tabindex="123"></a>FATORI, L. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="124">Silva, M. A. J.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="125">NARCISO, V.</a></b> . Quasi-stability property and attractors for a semilinear Timoshenko system. Discrete and Continuous Dynamical Systems<sup><img id="10780947_7" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="10780947"></sup>, v. 36, p. 6117-6132, 2016. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.3934/dcds.2016067&amp;issn=10780947&amp;volume=36&amp;issue=&amp;paginaInicial=6117&amp;titulo=Quasi-stability property and attractors for a semilinear Timoshenko system&amp;sequencial=7&amp;nomePeriodico=Discrete and Continuous Dynamical Systems" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">NARCISO, V.;NARCISO, VANDO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span>
+		<img src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/mma.3109" target="_blank" tabindex="126"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="127">NARCISO, V.</a></b>. Long-time behavior of a nonlinear viscoelastic beam equation with past history. Mathematical Methods in the Applied Sciences<sup><img id="01704214_8" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="01704214"></sup>, v. 38, p. 775-784, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1002/mma.3109&amp;issn=01704214&amp;volume=38&amp;issue=&amp;paginaInicial=775&amp;titulo=Long-time behavior of a nonlinear viscoelastic beam equation with past history&amp;sequencial=8&amp;nomePeriodico=Mathematical Methods in the Applied Sciences" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Silva, M. A. J.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2015</span>
+		<img src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.3934/dcds.2015.35.985" target="_blank" tabindex="128"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="129">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="130">Silva, M. A. J.</a> ; Attractors and their properties for a class of nonlocal extensible beams. Discrete and Continuous Dynamical Systems<sup><img id="10780947_9" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="10780947"></sup>, v. 35, p. 985-1008, 2015. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.3934/dcds.2015.35.985&amp;issn=10780947&amp;volume=35&amp;issue=&amp;paginaInicial=985&amp;titulo=Attractors and their properties for a class of nonlocal extensible beams&amp;sequencial=9&amp;nomePeriodico=Discrete and Continuous Dynamical Systems" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">Silva, M. A. J.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2014</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="131">Silva, M. A. J.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="132">NARCISO, V.</a></b> . Long-time behavior for a plate equation with nonlocal weak damping. Differential and Integral Equations<sup><img id="08934983_10" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="08934983"></sup>, v. 27, p. 931-948, 2014. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=&amp;issn=08934983&amp;volume=27&amp;issue=&amp;paginaInicial=931&amp;titulo=Long-time behavior for a plate equation with nonlocal weak damping&amp;sequencial=10&amp;nomePeriodico=Differential and Integral Equations" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">MA, T. F.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jmaa.2012.07.004" target="_blank" tabindex="133"></a>MA, T. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="134">NARCISO, V.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3694625045276063" target="_blank" tabindex="135">M. L. Pelicer</a> . Long-time behavior of a model of extensible beams with nonlinear boundary damping. JOURNAL OF MATHEMATICAL ANALYSIS AND APPLICATIONS<sup><img id="0022247X_11" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="0022247X"></sup>, v. 396, p. 694-703, 2012. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.jmaa.2012.07.004&amp;issn=0022247X&amp;volume=396&amp;issue=&amp;paginaInicial=694&amp;titulo=Long-time behavior of a model of extensible beams with nonlinear boundary damping&amp;sequencial=11&amp;nomePeriodico=JOURNAL OF MATHEMATICAL ANALYSIS AND APPLICATIONS" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">MA, T. F.</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2010</span>
+		<img src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/ico_relevante.gif" style="icone-relevancia">
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.na.2010.07.023" target="_blank" tabindex="136"></a>MA, T. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="137">NARCISO, V.</a></b> . Global attractor for a model of extensible beam with nonlinear damping and source terms. Nonlinear Analysis<sup><img id="0362546X_12" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="0362546X"></sup>, v. 73, p. 3402-3412, 2010. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.1016/j.na.2010.07.023&amp;issn=0362546X&amp;volume=73&amp;issue=&amp;paginaInicial=3402&amp;titulo=Global attractor for a model of extensible beam with nonlinear damping and source terms&amp;sequencial=12&amp;nomePeriodico=Nonlinear Analysis" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class="informacao-artigo" data-tipo-ordenacao="importancia"></span><span class="informacao-artigo" data-tipo-ordenacao="autor">NARCISO, V.;NARCISO, VANDO</span><span class="informacao-artigo" data-tipo-ordenacao="ano">2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.4171/PM/1817" target="_blank" tabindex="138"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="139">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2539621872552049" target="_blank" tabindex="140">COUSIN, Alfredo Tadeu</a> . Local Solutions for a Timoshenko System in Noncylindrical Domains. Portugaliae Mathematica<sup><img id="00325155_13" src="./Currículo do Sistema de Currículos Lattes (Vando Narciso)_files/jcr.gif" style="display: none" class="ajaxJCR" data-issn="00325155"></sup>, v. 65, p. 345-371, 2008. <div class="citado" cvuri="/buscatextual/servletcitacoes?doi=10.4171/PM/1817&amp;issn=00325155&amp;volume=65&amp;issue=&amp;paginaInicial=345&amp;titulo=Local Solutions for a Timoshenko System in Noncylindrical Domains&amp;sequencial=13&amp;nomePeriodico=Portugaliae Mathematica" tooltip="Citações a partir de 1996"></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="141"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="142">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="143">Silva, M. A. J.</a> . Well-posedness and long-time dynamics for a nonlinear evolution equation with Balakrishnan-Taylor damping. In: 4th Workshop on Analysis and PDEs, 2016, Aracaju. Book of Abstracts: 4th Workshop in Analysis and PDEs. Aracaju, 2016. p. 16-18. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="144">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="145">Silva, M. A. J.</a> . An attractor for a Kirchhoff wave model with nonlocal nonlinear damping. In: X ENAMA, 2016, Niteroi. Anais do X ENAMA. Niteroi, 2016. p. 191-192. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="146">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="147">Silva, M. A. J.</a> . Long time behavior for a model of extensible beam with nonlocal nonlinear damping. In: VIII ENAMA - Encontro Nacional de Análise Matemática e Aplicações, 2014, Recife. VIII ENAMA, 2014. p. 192-193. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="148">NARCISO, V.</a></b>. Long-time dynamics for a model of viscoelastic beam equation with nonlinear damping. In: VII ENAMA, 2013, Rio de Janeiro. Caderno de Resumos, 2013. p. 160-161. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="149">NARCISO, V.</a></b>. On a Timoshenko System in a Moving Boundary Domain. In: I ENAMA, 2007, Rio de Janeiro. I ENAMA: Encontro Nacional de Análise Matemática e Aplicações, 2007. p. 80-81. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="150">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2539621872552049" target="_blank" tabindex="151">COUSIN, Alfredo Tadeu</a> . Local Solution of Timoshenko System in a Noncylindrical Domains. In: 64º Seminário Brasileiro de Análise, 2006, São Paulo. 64º Seminário Brasileiro de Análise. Rio de Janeiro: Editora Central do SBA, 2006. v. 1. p. 1-12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="152">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2539621872552049" target="_blank" tabindex="153">COUSIN, Alfredo Tadeu</a> . On Carrier Based Nonlinear System in Noncylindrical Domains. In: 62° Seminário Brasileiro de Análise, 2005, Rio de Janeiro. 62° Seminário Brasileiro de Análise. Rio de Janeiro: UNIRIO, 2005. v. 31. p. 437-444. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="154">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2539621872552049" target="_blank" tabindex="155">COUSIN, Alfredo Tadeu</a> . Timoshenko System Derived from Carrier Equation. In: 60° Seminário Brasileiro de Análise, 2004, Rio de Janeiro. 60° Seminário Brasileiro de Análise. Rio de janeiro: IME.UERJ, 2004. v. 2. p. 39-46. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="156"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="157">NARCISO, V.</a></b>; Eduardo, Gomes Tavares ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="158">Silva, M. A. J.</a> . Long-time dynamics of Balakrishnan-Taylor extensible beams. In: I Simpósio Paranaense de Equações Diferenciais, 2017, UEL. 1 SPED, 2017. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso" tabindex="159"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="160">NARCISO, V.</a></b>. Dynamics for a model of flight structures with nonlocal energy damping. In: ICM 2018 Rio de Janeiro, 2018, Fortaleza. ICM 2018 Satellite Conference on Nonlinear Partial Differential Equations, 2018. p. 20-20. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="161">NARCISO, VANDO</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="162">Silva, M. A. J.</a> . Well-posedness and global attractor for a model of flight structures with degenerate energy damping. In: WPDE 2017, 2017, Petrópolis. XVI WPDE 2016, 2017. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="163">Silva, M. A. J.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="164">NARCISO, V.</a></b> . Attractors for a Class of Extensible Beam Models with Nonlocal Nonlinear Damping. In: 11 th AIMS Internacional Conference on Dynamical Systems, Differential Equations and Applications, 2016, Orlando, FLorida, USA. Abstracts, 2016. p. 147-147. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="165">Silva, M. A. J.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="166">NARCISO, V.</a></b> . STABILITY RESULTS FOR EXTENSIBLE BEAM MODELS WITH NONLOCAL DISSIPATIONS. In: XV WORKSHOP ON PARTIAL DIFFERENTIAL EQUATIONS, 2016, Rio de Janeiro. XV WPDE 2016, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="167">Silva, M. A. J.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="168">NARCISO, V.</a></b> . NONLOCAL PROBLEMS IN PLATE THEORY. In: IV Symposium on Partial Differential Equations, 2016, Maringá. IV Symposium on Partial Differential Equations, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="169">NARCISO, V.</a></b>. Global attractor for a model of viscoelastic beam equation with nonlinear damping. In: ICMC - Summer Meeting on Differential Equations, 2011, São Carlos. ICMC - Summer Meeting on Differential Equations 2011 - Chapter. São Carlos, 2011. p. 35-35. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="170">NARCISO, V.</a></b>. Global attractor for a plate equation with nonlocal dissipation. In: ICMC Summer Meeting on Partial Differential Equations 2010 Chapter, 2010, São Carlos. ICMC Summer Meeting on Differential Partial Equations Chapter 2010, 2010. p. 34-34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="171">NARCISO, V.</a></b>; MA, T. F. . GLOBAL ATTRACTORS FOR A CLASS OF NONLOCAL BEAM EQUATION. In: IX WORKSHOP ON PARTIAL DIFFERENTIAL EQUATIONS, 2010, Rio de Janeiro. IX WORKSHOP ON PARTIAL DIFFERENTIAL EQUATIONS, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="172">NARCISO, V.</a></b>; MA, T. F. . Finite Dimensional Attractor for a Nonlinear Beam Equation. In: ICMC Summer Meeting On Differential Equations - 2009 chapter, 2009, São Carlos - SP. ICMC Summer Meeting On Differential Equations - 2009 Chapter, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="173">NARCISO, V.</a></b>; MA, T. F. . Exponential attractor for a nonlinear dissipative beam equation of Kirchhoff type. In: III ENAMA, 2009, Maringá. III ENAMA, 2009. p. 110-111. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="174">NARCISO, V.</a></b>; MA, T. F. . Global Attractor For a Nonlinear Beam Equation with Nonlinear Dissipative Term. In: III Symposium on Partial Differential Equations, 2008, Londrina - PR. III Symposium on Partial Differential Equations, 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho" tabindex="175"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="176">NARCISO, VANDO</a></b>. Dynamics for a model of flight structures with nonlocal energy damping. 2018. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="177">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="178">Silva, M. A. J.</a> . An attractor for a Kirchhoff wave model with nonlocal nonlinear damping. 2016. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="179">NARCISO, V.</a></b>. Long-time dynamics for a model of extensible beam with viscoelastic damping. 2014. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="180">NARCISO, V.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="181">Silva, M. A. J.</a> . Long time behavior for a model of extensible beam with nonlocal nonlinear damping. 2014. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="182">NARCISO, V.</a></b>. Atrator Global Para Um Sistema Hiperbólico Não Linear. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="183">NARCISO, V.</a></b>. Long-time dynamics for a model of viscoelastic beam equation with nonlinear damping. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="184">NARCISO, V.</a></b>. Sobre um Tipo de Sistema de Equações Hiperbólicas Num Domínio Não Cilíndrico. 2006. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="185">NARCISO, V.</a></b>. Modelo Matemático Para um Fenômeno Físico. 2006. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="186">NARCISO, V.</a></b>. Equações Diferenciais Hiperbólicas Não Lineares em Domínios Móveis. 2005. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="187">NARCISO, V.</a></b>. Modelos Matemáticos. 2005. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="188">NARCISO, V.</a></b>. Tipos Especiais de Funções Regulares. 2004. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="189">NARCISO, V.</a></b>. A Derivada Sob o Ponto de Vista de um Transformação Linear. 2004. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas" tabindex="190"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="191">NARCISO, V.</a></b>; MA, T. F. . Global attractor for a model de extensible beam with nonlinear damping and source terms.
+							São Carlos 2010 (Notas do ICMC - Série Matemática - Nº 333). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica" tabindex="192"></a><br class="clear"><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="193">NARCISO, V.</a></b>. Modelos Matemáticos Envolvendo Equações Autônomas. 2006. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="194">NARCISO, V.</a></b>. Modelo de Kirchhoff-Carrier para pequenas vibrações de uma corda elástica. 2006. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="195">NARCISO, V.</a></b>. Teorema do Ponto Fixo para Espaços de Banach. 2005. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="196">NARCISO, V.</a></b>. Teorema de Existência e Unicidade para Equação de 1ª Ordem do Tipo y'=f(x,y). 2004. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="197">NARCISO, V.</a></b>. Espaços Vetoriais. 2003. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Bancas" tabindex="198">
+<h1 tabindex="0">Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho" tabindex="199"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Craveiro, I. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="200">NARCISO, V.</a></b>; Chagas, A. C. M. M..  Participação em banca de Myrian Pastore da Silva. Uma extensão para o coeficiente binomial: o coeficiente trinomial. 2016. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANABRIA, L.; Rodrigues, Sergio; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="201">NARCISO, V.</a></b>.  Participação em banca de JOÃO HENRIQUE BUENO DE GODOY FILHO. O Princípio da Inclusão e Exclusão e suas Aplicações. 2016. Dissertação (Mestrado em PROFMAT) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, F. P.; SILVA, R. C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="202">NARCISO, V.</a></b>.  Participação em banca de Weslen Xavier de Moraes. Solução em Série de Potências para Equações Diferenciais Ordinárias Lineares de Segunda Ordem. 2016. Dissertação (Mestrado em PROFMAT) - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Missio, Maristela; Rodrigues, Sergio; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="203">NARCISO, V.</a></b>.  Participação em banca de Raphael Cássio Pereira Pinto. Ambientes de geometria dinâmica no ensino de funções e geometria plana. 2016. Dissertação (Mestrado em Mestrado Profissional em Matemática - PROFMAT) - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ferreira, A. A.; REYES, R. J. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="204">NARCISO, V.</a></b>.  Participação em banca de Mariana Manfroi Rodrigues. Um estudo de máximos e mínimos para aplicações na otimização de embalagens. 2016. Dissertação (Mestrado em Mestrado Profissional em Matemática - PROFMAT) - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="205">Silva, M. A. J.</a>; Nascimento, F. A. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="206">NARCISO, V.</a></b>; FATORI, L. H..  Participação em banca de Altair Santos de Oliveira Tosti. Taxas de decaimento para um modelo viscoelástico de placas. 2015. Dissertação (Mestrado em Matematica) - Universidade Estadual de Londrina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ferrareze, J. P.; SILVA, J.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="207">NARCISO, V.</a></b>.  Participação em banca de Edilson de Moura. Fractais gerados por sistemas de funções iteradas. 2015. Dissertação (Mestrado em PROFMAT) - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REYES, R. J. R.; Craveiro, I. M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="208">NARCISO, V.</a></b>.  Participação em banca de Marcos Savitraz. Determinante de Algumas Matrizes Especiais. 2015. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0548722142838024" target="_blank" tabindex="209">Silva, M. A. J.</a>; MA, T. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="210">NARCISO, V.</a></b>.  Participação em banca de Rodrigo Capobianco. Decaimento da Energia para um Modelo Viscoelastico de Placas. 2014. Dissertação (Mestrado em Matemática Aplicada e Computacional) - Universidade Estadual de Londrina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Missio, Maristela; Rodrigues, Sergio; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="211">NARCISO, V.</a></b>.  Participação em banca de Érica Melissa Ottersbach. A Atividade Lúdica Aplicada no Ensino da equação de 1º Grau Com Uma Incógnita. 2014. Dissertação (Mestrado em Mestrado Profissional em Matemática - PROFMAT) - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANABRIA, L.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="212">NARCISO, V.</a></b>; Rodrigues, Sergio.  Participação em banca de Marcia Shizue Matsumoto. Despertando o interesse do aluno pela matemática com a criptografia. 2014. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GRECCO, A. M. V.; BISCARO, A. F. V.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="213">NARCISO, V.</a></b>.  Participação em banca de Luzia de Oliveira da Silva. Estudo dos sólidos geométricos com o auxilio do software Wingeom. 2014. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, R.; MAZINE, L. G.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="214">NARCISO, V.</a></b>.  Participação em banca de Rubens de Oliveira Paz. Construção de gráficos utilizando o software planilha eletronica. 2014. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mercedes, C. E. R.; REYES, R. J. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="215">NARCISO, V.</a></b>.  Participação em banca de Bruna Patrícia de jesus. Um novo olhar sobre as dízimas periodicas. 2014. Dissertação (Mestrado em Mestrado Profissional em Matemática - PROFMAT) - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANABRIA, L.; Rodrigues, Sergio; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="216">NARCISO, V.</a></b>.  Participação em banca de Wilhelm dos Santos Paes. Criptografia em blocos: um enfoque em sua aplicação no ensino de matrizes. 2014. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, J.; Aniz, C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="217">NARCISO, V.</a></b>.  Participação em banca de Eder Regiolli Dias. Cônicas: atividades aplicáveis no Ensino Médio com auxílio de geometria dinâmica e dobraduras. 2014. Dissertação (Mestrado em PROFMAT) - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aniz, C.; Ferrareze, J. P.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="218">NARCISO, V.</a></b>.  Participação em banca de Marcos Pinheiro Matos. Funções exponenciais e logarítmicas. 2014. Dissertação (Mestrado em PROFMAT) - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigues, Sergio; Oliveira de Souza, S. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="219">NARCISO, V.</a></b>.  Participação em banca de Dionisio Nogueira Neto. O uso de funções geradoras no Ensino Médio para articular conteúdos variádos em análise combinatória. 2014. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ferreira, A. A.; REYES, R. J. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="220">NARCISO, V.</a></b>.  Participação em banca de Juliana Gonçalves Fonseca. Representação Decimal de Números Reais: O Estudo de Expressões Decimais. 2013. Dissertação (Mestrado em Mestrado Profissional em Matemática - PROFMAT) - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Craveiro, I. M.; Rodrigues, Sergio; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="221">NARCISO, V.</a></b>.  Participação em banca de Jussara Canazza de Macedo. A Modelagem Matemática Como Estratégia de Ensino e Aprendizagem de Geometria no 8º Ano do Ensino Fundamental. 2013. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aniz, C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="222">NARCISO, V.</a></b>; CARVALHO, E. R..  Participação em banca de Renato Câmara Victório de Almeida Júnior. Desenvolvimento de conceitos e resolução de atividades de função quadrática com uso de software geogebra. 2013. Dissertação (Mestrado em PROFMAT) - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, J.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="223">NARCISO, V.</a></b>; Ferrareze, J. P..  Participação em banca de Hellen Fernandes Gondim. Probabilidade e probabilidade geométrica: conceitos e exemplos aplicáveis no Ensino Médio. 2013. Dissertação (Mestrado em PROFMAT) - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aniz, C.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="224">NARCISO, V.</a></b>; FREITAS, E. S..  Participação em banca de Flodoaldo Moreno Júnior. Métodos de Resolução de Equações do Segundo e do Terceiro Grau. 2013. Dissertação (Mestrado em PROFMAT) - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, M. O.; FATORI, L. H.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="225">NARCISO, V.</a></b>.  Participação em banca de Adriana Marise Colombera Honda. Matemática e Geografia: Uma Interdisciplinalidade. 2013. Dissertação (Mestrado em Matematica) - Universidade Estadual de Londrina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, M. O.; TERAMON, N.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="226">NARCISO, V.</a></b>.  Participação em banca de Ednilson Carlos Zandonadi. Aplicação do Software Geogebra no Ensino de Funções Exponenciais e Logaritmicas. 2013. Dissertação (Mestrado em Matematica) - Universidade Estadual de Londrina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="227">NARCISO, V.</a></b>; Craveiro, I. M..  Participação em banca de Lin Ming Feng. Distâncias Astronômicas e Geometria. 2013. Dissertação (Mestrado em Matemática) - Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Missio, Maristela; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="228">NARCISO, V.</a></b>; CRUZ, R. B..  Participação em banca de Raphael Cássio Pereira Pinto.Ambientes de geometria dinâmica no ensino de funções no Ensino Básico.
+							2016. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Moraes, J. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="229">NARCISO, V.</a></b>; Missio, Maristela.  Participação em banca de Thiago de Oliveira Martins.Introdução a teoria qualitativa da EDO's.
+							2016. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mercedes, C. E. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="230">NARCISO, V.</a></b>; Moraes, J. R..  Participação em banca de Junior Rodrigues Ribeiro.Solução Numérica da Equação Diferencial Parcial de Difusão do Tipo Unidimensional Via Diferenças Finitas.
+							2015. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="231">NARCISO, V.</a></b>; Nascimento, R. P.; CRUZ, R. B..  Participação em banca de Cristiane da Silva dos Santos.Estudo Qualitaivo das EDO's Aplicadas num Modelo do Tipo Espécie em Competição.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="232">NARCISO, V.</a></b>; CRUZ, R. B.; LOPES, V. R..  Participação em banca de Karine Simões Rezende.Estudo Qualitaivo das EDO's Aplicadas num Modelo do Tipo Presa-Predador.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simão, L. F.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="233">NARCISO, V.</a></b>; Mercedes, C. E. R..  Participação em banca de Pedro Anízio Ferreira Novaes.Simulação de gráfico de funções com o auxilio de software modellus: modelagem para o ensino de funções.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CRUZ, R. B.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="234">NARCISO, V.</a></b>.  Participação em banca de Alex Borges França.Integrais duplas, conceitos e aplicações.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mercedes, C. E. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="235">NARCISO, V.</a></b>; Ferreira, A. A..  Participação em banca de Lidiane Macena Marquês.Operadores no espaço de Hilbert.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mercedes, C. E. R.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="236">NARCISO, V.</a></b>; Ferreira, A. A..  Participação em banca de Mariana Manfroi Rodrigues.Método das diferenças finitas para soluções das equações diferenciais parciais.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Missio, Maristela; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="237">NARCISO, V.</a></b>; Nascimento, R. P..  Participação em banca de Jailson José Lourenço.Um estudo da teoria qualitativa de EDO aplicado aos modelos de crescimento populacional.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="238">NARCISO, V.</a></b>; Nascimento, R. P.; Missio, Maristela.  Participação em banca de Simone Rodrigues Romero.Teorema de Existência e Unicidade Para Problemas de Valor Inicial de Primeira Ordem.
+							2011. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">A. B. P. Molgora; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="239">NARCISO, V.</a></b>; A. L. Alves.  Participação em banca de Bruce Amorim Oliveira.Multiplicação de Matrizes e o Algoritmo de Strassen.
+							2011. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nascimento, R. P.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="240">NARCISO, V.</a></b>; Missio, Maristela.  Participação em banca de Vanessa Rodrigues Lopes.Teorema da Unicidade e Existência para Equações Diferenciais Ordinárias de Primeira Ordem.
+							2011. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Missio, Maristela; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="241">NARCISO, V.</a></b>; VASCONCELO, E. G..  Participação em banca de Niemayer Ramos Firmino.Estudo da Dinâmica Populacional Aplicado à Cidade de Dourados.
+							2011. Trabalho de Conclusão de Curso (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDEIROS, A. A. P. E. R. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="242">NARCISO, V.</a></b>; MAZINE, L. G.; PITANGUI, A..  Participação em banca de Américo Alves Pereira e Reinaldo de Souza Medeiros.Elementos da Teoria dos Grafos e Aplicações.
+							2004. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MATSUMOTO, J. F. C. E. M. S.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="243">NARCISO, V.</a></b>; MARTINÊS, M. D.; LORO NETO, A..  Participação em banca de José Fabio Costa e Marcia Shizue Matsumoto.Estudo Qualitativo das Soluções de Um Sistema de Equações Diferenciais Não - Linear do Tipo Presa Predador.
+							2004. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear"><br class="clear"><a name="ParticipacaoBancasComissoes" tabindex="244"></a><br class="clear"><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="245">NARCISO, V.</a></b>; REYES, R. J. R.; OLIVEIRA, R.. Concurso Público para Provimento de cargos da Carreira do Magistério Superior da UFGD.
+							2014. Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Soares, Maria Zoraide Martins; Rodrigues, Sergio; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="246">NARCISO, V.</a></b>. Concurso Público para o Provimento de Cargos Efetivos de Professor Adjunto, Professor Assistente e de Professor Auxiliar UFGD.
+							2010. Universidade Federal da Grande Dourados. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Missio, Maristela; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="247">NARCISO, V.</a></b>; Betanea, Adriana. Banca Examinadora de Seleção Docente - UEMS.
+							2010.
+							Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="248">NARCISO, V.</a></b>. Banca examinadora de seleção de docentes da UEMS.
+							2006.
+							Universidade Estadual de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Eventos" tabindex="249">
+<h1 tabindex="0">Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos" tabindex="250"></a><br class="clear"><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII ENAMA.Long-time dynamics for a model of viscoelastic beam equation with nonlinear damping.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ICMC - Summer Meeting on Differential Equations.Global attractor for a model of viscoelastic beam equation with nonlinear damping.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ICMC Summer Meeting on Differential Partial Equations Chapter 2010.Global attractor for a plate equationwith a nonlocal dissipation.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ICMC Summer Meeting On Differential equations - 2009 Chapter.Finite Dimensional Attractor for a Nonlinear Beam Equation.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III ENAMA.Exponential attractor for a nonlinear dissipative beam equation of Kirchhoff type.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Symposium on Partial Differential Equations.Global Attractor for a Nonlinear Beam Equation with Nonlinear Dissipative term.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Summer Meeting in Differential Equations.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I ENAMA. On a Timoshenko System in a Moving Boundary Domain. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">64º Seminário Brasileiro de Análise.Local Solution of Timoshenko System in a Noncylindrical Domains. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Summer Meeting in Differential Equations.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">62º Seminário Brasileiro de Análise.On Carrier based nonlinear system in noncylindrical domains. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">60º Seminário Brasileiro de Análise.Timoshenko System Derived From Carrier Equation. 2004. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">56º Seminário Brasileiro de Análise. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio de Geometria Diferencial.
+							2002. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos" tabindex="251"></a><br class="clear"><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="252">NARCISO, V.</a></b>. VII Semana da Matemática. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="253">NARCISO, V.</a></b>. IV Semana da Matemática: Aspectos Teóricos e Aplicados. 2006. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="Orientacoes" tabindex="254">
+<h1 tabindex="0">Orientações</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas" tabindex="255"></a><br class="clear"><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simone Rodrigues Romero. Diferenciabilidade: Aspectos teóricos e aplicados nas áreas econômica e administrativa.
+							2016.
+						
+					Dissertação  (Mestrado em Mestrado Profissional em Matemática - PROFMAT)  - Universidade Estadual de Mato Grosso do Sul, . Orientador: Vando Narciso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Eduardo Miranda. Um Sistema Viscoelástico Abstrato com História.
+							2016.
+						
+					Dissertação  (Mestrado em Matemática Aplicada e Computacional)  - Universidade Estadual de Londrina, . Coorientador: Vando Narciso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Joab Cavalcante da Silva. CONJECTURA DE GOLDBACH: EVIDÊNCIAS COMPUTACIONAIS.
+							2014.
+						
+					Dissertação  (Mestrado em Mestrado Profissional em Matemática - PROFMAT)  - Universidade Estadual de Mato Grosso do Sul, . Orientador: Vando Narciso. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Karolain Korte.
+							Espaços Métricos: Aspectos Teoricos e Aplicados.
+							2018.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cristiane da Silva dos Santos.
+							Estudos Qualitativos das EDO's Aplicadas num Modelo do Tipo Espécie em Competição.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Karine Simões Rezende.
+							Estudos Qualitativos das EDO's Aplicadas num Modelo do Tipo Presa-Predador.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simone Rodrigues Romero.
+							Teorema de Existência e Unicidade Para Problemas de Valor Inicial de Primeira Ordem.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática)  - Universidade Estadual de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcia Shizue Matsumoto e José Fabio Costa.
+							Estudo Qualitativo das Soluções de um Sistema de Equações Diferenciais Não - Linear do Tipo Presa - Predador.
+							2004. 40 f.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática Licenciatura Plena)  - Universidade Federal de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Junior Rodrigues Ribeiro.
+							Tópicos em Análise Funcional.
+							2015.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Estadual de Mato Grosso do Sul,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Junior Rodrigues Ribeiro.
+							Estudo de Equações Diferenciais Ordinárias Aplicados nos Estudo de Sistemas Dinâmicos não Lineares.
+							2014.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Estadual de Mato Grosso do Sul,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adriano Simão de Lima.
+							?Tópicos em Equações Diferenciais Parciais?.
+							2014.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Estadual de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nelson Tsuji Junior.
+							?Análise de Fourier em Modelos de Equações Diferenciais Parciais?.
+							2014.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Estadual de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cristiane da Silva Santos.
+							Problemas de Controle Ótimo de Sistemas Dinâmicos por meio de Impulsos.
+							2012.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Estadual de Mato Grosso do Sul,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Paula Freitas de Sá.
+							Aplicações de Equações Diferenciais no Estudo de Problemas de Controle Biológico.
+							2012.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Estadual de Mato Grosso do Sul,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Karine Simôes.
+							Sistemas do Tipo Presa-Predador.
+							2012.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Estadual de Mato Grosso do Sul,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Walquiria de Sá Rodrigues.
+							Princípios em Equações Diferenciais Ordinárias.
+							2005.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Estadual de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Natália Cardoso Dal Molin.
+							Monitoria da disciplina de Cálculo Diferencial e Integral I.
+							2006.
+							Orientação de outra natureza. (Física)  - Universidade Estadual de Mato Grosso do Sul,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Walquiria de Sá Rodrigues.
+							Fundamentos de Matemática II.
+							2005.
+							Orientação de outra natureza. (Matemática)  - Universidade Estadual de Mato Grosso do Sul,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Odete Pereira dos Santos.
+							Fundamentos de Matemática II.
+							2005.
+							Orientação de outra natureza. (Matemática)  - Universidade Estadual de Mato Grosso do Sul. Orientador: Vando Narciso.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA" tabindex="256">
+<h1 tabindex="0">Educação e Popularização de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA" tabindex="257"></a><br class="clear"><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3038850246788286" target="_blank" tabindex="258">NARCISO, V.</a></b>. Atrator Global Para Um Sistema Hiperbólico Não Linear. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear"></div><br class="clear"><br class="clear"><div class="rodape-cv">Página gerada pelo Sistema Currículo Lattes em 06/03/2020 às 22:49:48</div><br class="clear"><div class="control-bar-wrapper"><a href="http://buscatextual.cnpq.br/buscatextual/download.do?metodo=apresentar&amp;idcnpq=3038850246788286" target="_blank" class="button" tabindex="259"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()" tabindex="260"><span class="mini-ico mini-ico-list"></span>Imprimir Currículo</a>
+</div><br class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop" style="display: none;">
+<a href="javascript:void(0)" class="topo-width center" tabindex="261">
+<div class="id-orgao">
+<span>CNPq</span> | Uma agência do Ministério da Ciência, Tecnologia e Inovação</div>
+</a>
+</div>
+
+
+<div id="menu-dados-gerais" class="megamenu" _megamenupos="0pos" style="z-index: 1001; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Identificacao" tabindex="11">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Endereco" tabindex="12">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Idiomas" tabindex="13">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-formacao" class="megamenu" _megamenupos="1pos" style="z-index: 1002; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#FormacaoAcademicaTitulacao" tabindex="15">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#FormacaoComplementar" tabindex="16">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-atuacao" class="megamenu" _megamenupos="2pos" style="z-index: 1003; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#AtuacaoProfissional" tabindex="18">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#LinhaPesquisa" tabindex="19">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#RevisorPeriodico" tabindex="20">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#AreasAtuacao" tabindex="21">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-projetos" class="megamenu" _megamenupos="3pos" style="z-index: 1004; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProjetosPesquisa" tabindex="23">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProjetosExtensao" tabindex="24">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-producoes" class="megamenu" _megamenupos="4pos" style="z-index: 1005; display: none;">
+		
+		<div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProducaoBibliografica" tabindex="26">Produção Bibliográfica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ArtigosCompletos" tabindex="27">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ArtigosAceitos" tabindex="28">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#LivrosCapitulos" tabindex="29">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#TextosJornaisRevistas" tabindex="30">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#TrabalhosPublicadosAnaisCongresso" tabindex="31">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ApresentacaoTrabalho" tabindex="32">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#OutrasProducoesBibliograficas" tabindex="33">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#OutrasProducoesBibliograficas" tabindex="34">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#OutrasProducoesBibliograficas" tabindex="35">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#OutrasProducoesBibliograficas" tabindex="36">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProducaoTecnica" tabindex="37">Produção Técnica</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#AssessoriaConsultoria" tabindex="38">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#SoftwareSemPatente" tabindex="39">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProdutosTecnologicos" tabindex="40">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProcessosTecnicas" tabindex="41">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#TrabalhosTecnicos" tabindex="42">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#DemaisProducaoTecnica" tabindex="43">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#DemaisProducaoTecnica" tabindex="44">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#DemaisProducaoTecnica" tabindex="45">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#DemaisProducaoTecnica" tabindex="46">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ManutencaoObraArtistica" tabindex="47">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#DemaisProducaoTecnica" tabindex="48">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#EntrevistasMesasRedondas" tabindex="49">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#DemaisProducaoTecnica" tabindex="50">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#RedesSociais" tabindex="51">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#DemaisProducoesTecnicas" tabindex="52">Outras produções técnicas</a></li>
+		
+	</ul></div><div class="column"><div class="subtitMenu"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProducaoArtisticaCultural" tabindex="53">Produção Artística/Cultural</a></div><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ArtesCenicas" tabindex="54">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Musica" tabindex="55">Música</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ArtesVisuais" tabindex="56">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#OutrasProducoesArtisticas" tabindex="57">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-educacaoPopularizacaoCTA" class="megamenu" _megamenupos="5pos" style="z-index: 1006; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ArtigosEPCTA" tabindex="59">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#LivrosCapitulosEPCTA" tabindex="60">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#TextosJornaisEPCTA" tabindex="61">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ApresentacoesTrabalhoEPCTA" tabindex="62">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProgramaComputadorEPCTA" tabindex="63">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#CursosCurtaEPCTA" tabindex="64">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#MaterialDidaticoEPCTA" tabindex="65">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#EntrevistasEPCTA" tabindex="66">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ProgramaComputadorRegistradoEPCTA" tabindex="67">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#OrganizacaoEventosEPCTA" tabindex="68">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#RedesSociaisEPCTA" tabindex="69">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ArtesVisuaisEPCTA" tabindex="70">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ArtesCenicasEPCTA" tabindex="71">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#MusicaEPCTA" tabindex="72">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-eventos" class="megamenu" _megamenupos="6pos" style="z-index: 1007; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ParticipacaoEventos" tabindex="74">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#OrganizacaoEventos" tabindex="75">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-orientacoes" class="megamenu" _megamenupos="7pos" style="z-index: 1008; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Orientacoesconcluidas" tabindex="77">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#Orientacaoemandamento" tabindex="78">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-bancas" class="megamenu" _megamenupos="8pos" style="z-index: 1009; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ParticipacaoBancasTrabalho" tabindex="80">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4705986Y3&amp;tokenCaptchar=03AERD8Xp7fqevHBwF5WqXiuvQ7Ydsccbkun4Vs4vbMA5anx22xR9Cp8ySqeVYZjDF0OF3yNv8U1QM4HVrbDtyNkzsuUZf2pBBAR_07TFYle25bWDxikYY2fD9XINUsfVOw9oy5j-PNLBJeks4oHtJa0W697muGpnLyNrHYJkjQ_6hUlzcBOu-Aa9aeLC0DVH6f84HlFXi2XDpBXOUkZRw9wnDV6bG4Acx36j9st3KZANJEKSwvN5CT8mIMG11CpcPIDljXQZRO6aIqDwG5AAdRM7iaFxURYGKgHdYpVfGq1fZR8-BUJ9CAO8zlfu4Cd9uax0Epra611NIoKqmLRQ80w0ce4EXxWVWN04WsUGKviHDgtsUx3rpqOvuSQKbIH7LEXLXdq9vjUNGLMbI6SyYM1P-2d4g-p2WtRNey887H1c5yyaz8WJ2lHjVpSjWOMgDwcNCrdrQF-mFUNpJKxQ1skJqcs4Y7-_kYg#ParticipacaoBancasComissoes" tabindex="81">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div><div id="menu-informacoes-complementares" class="megamenu" _megamenupos="9pos" style="z-index: 1010; display: none;">
+		
+		<div class="column"><h3 tabindex="0"></h3><ul>
+		
+		
+		<li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&amp;id=K4705986Y3&amp;tipo=completo&amp;idiomaExibicao=1" tabindex="83">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div></body></html>
