@@ -1,5 +1,7 @@
+"""Criando um modelo para armazenar dados"""
 def azul(s):
     return "\033[97;1m"+str(s)+"\033[m"
+
 def roxo(s):
     return "\033[95;1m"+str(s)+"\033[m"
 

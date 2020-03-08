@@ -49,6 +49,7 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
     #e 0: se o arquivo não é um arquivo .nk, retorna vazio
 
 
+
     #b 1: criando um BS; se houver erro na leitura do .nk retorna vazio
     try:
         arquivo_para_ler = open(arquivo,"rb")
@@ -77,37 +78,5 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
     #e 4:
 
 
-    #b 5:
-    #e 5:
 
 
-    #b 6:
-    #e 6:
-
-
-    #b 7:
-    #e 7:
-
-
-    #b 8:
-    #e 8:
-
-
-    #b 9:
-    #e 9:
-
-
-    #b 10:
-    #e 10:
-
-
-    #b 11:
-    #e 11:
-
-
-    #b 12:
-    #e 12:
-
-
-    #b 13:
-    #e 13:
