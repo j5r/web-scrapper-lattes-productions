@@ -33,7 +33,7 @@
 
     "last_msg": "Aguardando a criação das planilhas\n\nO programa se encerrará automaticamente.",
     "last_msg_fg": "#aaf",
-    "access_menu_process_html": "Acesse o menu Processar HTMLs para concluir."
+    "access_menu_process_html": "Acesse o menu Processar HTMLs para concluir.\n\nPara fazê-lo, <<ENTRE NA PASTA>> onde estão os arquivos HTML."
     },
 
 

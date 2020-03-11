@@ -120,8 +120,8 @@ def processar_arquivos_pastas_e_gerar_planilhas():
         pastas.remove(".git")
     except:
         pass
-    for pasta in pastas:
-        os.system('rm -r "' + pasta + '"')
+    #for pasta in pastas:
+    #    os.system('rm -r "' + pasta + '"')
     #e *: todas as pastas serão deletadas
 
 
