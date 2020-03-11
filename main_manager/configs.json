@@ -32,7 +32,8 @@
     "open_urls_bg": "#46f",
 
     "last_msg": "Aguardando a criação das planilhas\n\nO programa se encerrará automaticamente.",
-    "last_msg_fg": "#aaf"
+    "last_msg_fg": "#aaf",
+    "access_menu_process_html": "Acesse o menu Processar HTMLs para concluir."
     },
 
 

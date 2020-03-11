@@ -267,8 +267,10 @@ class Gui(Tk):
         arquivo.write(self.t_text_area.get(0.0,END))
         caminho_arquivo = "/".join(arquivo.name.split("/")[:-1])
         nome_arquivo = arquivo.name.split("/")[-1]
+        self.l_nome_arquivo["text"] = nome_arquivo
         arquivo.close()
         #e 2: o nome do arquivo e o seu caminho foram capturados
+        #   : modifica label nome_do_arquivo
 
 
         #b 3: abrindo o arquivo com as eventuais modificações
@@ -300,7 +302,8 @@ class Gui(Tk):
     def cll_avancar(self):
         #b 0: apagando o borão de avançar e desabilitando menus
         self.b_salvar_avancar.destroy()
-        self.m_barra_de_menus.entryconfigure(0, state="disabled")
+        self.m_menu_principal.entryconfigure(0, state="disabled")
+        self.m_menu_principal.entryconfigure(1, state="disabled")
         #e 0: menus foram desativados
 
         #b 1: adicionando botão: número de links e abrir links
@@ -316,7 +319,6 @@ class Gui(Tk):
         #e 1: botões criados
 
     def cll_abrir_no_navegador(self):
-
         try:
             numero_de_links_para_abrir = int(self.e_numero_links.get())
         except Exception as e:
@@ -339,7 +341,10 @@ class Gui(Tk):
                 f = open(Gui.JSON["error"]["url_list_error"],"w")
                 f.write("\n".join(self.url_list_erros))
                 f.close()
-                self.cll_fim_do_programa()
+                self.e_numero_links.destroy()
+                self.b_abrir.destroy()
+                self.l_numero_links["text"] = Gui.JSON["label"]["access_menu_process_html"]
+                self.l_numero_links["font"] = self.fonte
                 break
 
 
