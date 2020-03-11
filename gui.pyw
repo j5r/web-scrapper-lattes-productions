@@ -398,6 +398,8 @@ class Gui(Tk):
         if not directory:
             return None
         os.chdir(directory)
+        print(directory)
+        exit()
         self.cll_fim_do_programa()
 
 
