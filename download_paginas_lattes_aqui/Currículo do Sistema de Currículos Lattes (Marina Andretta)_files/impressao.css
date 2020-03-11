@@ -1,0 +1,95 @@
+@media print {
+	/*Estilo para impressão - inicio */
+	body{
+		margin:0;
+		padding:0;
+	}
+    @page {
+        margin: 0.5cm;
+    } 
+   .header {
+		display:none !important;
+	}
+* {
+		/*	float: none !important;*/
+		height: auto !important;
+		overflow: visible !important;
+		position: inherit !important;
+	}
+	div {
+		display: block !important;
+		/*	float: none !important;*/
+		height: auto !important;
+		overflow: visible !important;
+		position: inherit !important;
+	}
+	div.navigation-wrapper a, div.navigation-wrapper, .megamenu {
+		display:none !important;
+	}
+	.main-content {
+		background: none repeat scroll 0 0 #FFFFFF !important;
+		border-radius: 4px 4px 4px 4px;
+		box-shadow: none !important;
+		display: inline-block;
+		margin-bottom: 16px;
+		margin-top: 16px;
+		width: auto;
+	}
+	.control-bar-wrapper {
+		display:none !important;
+	}
+	div.navigation-wrapper a, div.navigation-wrapper, .megamenu {
+		display:none !important;
+	}
+	.content-wrapper{
+		height: 100% !important;
+	}
+	.main-content {
+		box-shadow: none !important;
+	}
+	.max-width {
+		max-width: 90% !important;
+	}
+	.min-width {
+		min-width: 30px !important;
+	}
+	.layout-cell {
+		float: left;
+		left: 1px;
+		min-height: 1px;
+		min-width: 1px;
+	}
+	.layout-cell-1 {
+		width: 8.33% !important;
+		float: left !important;
+	}
+	.layout-cell-11 {
+		width: 91.66% !important;
+		float: left !important;
+	}
+	.layout-cell-12 {
+		float: none !important;
+		width:100% !important;
+	}
+	.layout-cell-pad-5 {
+   		 padding: 0 !important;
+   		 float: left !important;
+	}
+	.to-top-bar {
+	    display: none !important;
+	}
+	.layout-cell.layout-cell-3.text-align-right {
+		float: left !important;
+		width:33% !important;
+		text-align: right !important;
+	}
+	.layout-cell.layout-cell-9 {
+		float: left !important;
+		width: 67% !important;
+	}
+	.layout-cell-pad-5.text-align-right {
+		float: left !important;
+	}
+	/*Estilo para impressão - fim */
+
+}

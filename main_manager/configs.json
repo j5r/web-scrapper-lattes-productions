@@ -12,6 +12,7 @@
     "main_menu": "Menu Principal",
     "main_menu_open": "Abrir...",
     "main_menu_new": "Novo Arquivo",
+    "main_menu_run": "Processar HTMLs",
 
     "help_menu": "Ajuda",
     "help_menu_how_to_use": "Como usar",

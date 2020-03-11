@@ -1,6 +1,7 @@
 from tkinter import *
-from tkinter.filedialog import askopenfilename as Open
-from tkinter.filedialog import asksaveasfile as Save
+from tkinter.filedialog import askopenfilename as Open #::>str
+from tkinter.filedialog import asksaveasfile as Save #::>file
+from tkinter.filedialog import askdirectory as Directory #::>str
 import json
 from main_manager.before import getJSON
 import os
@@ -26,9 +27,11 @@ class Gui(Tk):
 
         if os.sys.platform == "linux":
             #comando para executar um url no navegador: http://...
-            self.__comando = "xdg-open " #linux
+            self.__comando = "xdg-open "
+            #linux
         else:
-            self.__comando = "start " #windows
+            self.__comando = "rundll32 url.dll,FileProtocolHandler "
+            #windows
         #e 0: parâmetros inicializados
 
         #b 1: criando as variáveis internas da gui
@@ -38,6 +41,7 @@ class Gui(Tk):
         self.file_text = ""
         self.caminho = ""
         self.nome_pasta = Gui.JSON["self"]["folder_to_download"]
+        self.cor_fundo = Gui.JSON["self"]["bg_for_the_end"]
         #e 1: as variáveis serão atualizadas para controle do programa
 
         #b 2: declarando contêineres
@@ -90,6 +94,11 @@ class Gui(Tk):
         self.m_menu_principal.add_command(
                     label= Gui.JSON["menu"]["main_menu_new"],
                     command=self.cll_novo_arquivo,
+                    font = self.fonte,
+                    )
+        self.m_menu_principal.add_command(
+                    label= Gui.JSON["menu"]["main_menu_run"],
+                    command=self.cll_processar_html,
                     font = self.fonte,
                     )
 
@@ -148,9 +157,40 @@ class Gui(Tk):
         #e 3:
 
 
-        #b 4: executando loop infinito
+        #b 4: elementos a serem lançados por outras callbacks
+        self.l_numero_links = Label(#label
+                    self.fr2,
+                    text = Gui.JSON["label"]["url_number"],
+                    font = self.fonte,
+                    )
+        self.e_numero_links = Entry(
+                    self.fr2,
+                    font = self.fonte,
+                    width = 10,
+                    )
+        self.b_abrir = Button(
+                    self.fr3,
+                    text = Gui.JSON["label"]["open_urls"],
+                    command = self.cll_abrir_no_navegador,
+                    fg = Gui.JSON["label"]["open_urls_fg"],
+                    font = list(self.fonte) + ["bold"],
+                    bg = Gui.JSON["label"]["open_urls_bg"],
+                    )
+        self.l_mensagem_final = Label(
+                    self.fr1,
+                    text = Gui.JSON["label"]["last_msg"],
+                    font = ("Arial", 20, "bold"),
+                    fg = Gui.JSON["label"]["last_msg_fg"],
+                    bg = self.cor_fundo,
+                    pady = 50
+                    )
+        #e 4: elementos foram criados
+
+        #b 5: executando loop infinito
         self.mainloop()
-        #e 4: loop infinito
+        #e 5: loop infinito
+    ####################################################################
+
 
     def cll_abrir_arquivo(self):
         #b 0: abrindo arquivo
@@ -264,30 +304,14 @@ class Gui(Tk):
         #e 0: menus foram desativados
 
         #b 1: adicionando botão: número de links e abrir links
-        self.l_numero_links = Label(#label
-                    self.fr2,
-                    text = Gui.JSON["label"]["url_number"],
-                    font = self.fonte,
-                    )
         self.l_numero_links.pack(side=LEFT)
 
-        self.e_numero_links = Entry(
-                    self.fr2,
-                    font = self.fonte,
-                    width = 10,
-                    )
+
         self.e_numero_links.insert(0,"7")
         self.e_numero_links.pack()
         self.e_numero_links.focus()
 
-        self.b_abrir = Button(
-                    self.fr3,
-                    text = Gui.JSON["label"]["open_urls"],
-                    command = self.cll_abrir_no_navegador,
-                    fg = Gui.JSON["label"]["open_urls_fg"],
-                    font = list(self.fonte) + ["bold"],
-                    bg = Gui.JSON["label"]["open_urls_bg"],
-                    )
+
         self.b_abrir.pack()
         #e 1: botões criados
 
@@ -341,15 +365,6 @@ class Gui(Tk):
         #e 0: agora vamos adicionar uma mensagem de adeus
 
         #b 1: lançando mensagem
-        self.cor_fundo = Gui.JSON["self"]["bg_for_the_end"]
-        self.l_mensagem_final = Label(
-                    self.fr1,
-                    text = Gui.JSON["label"]["last_msg"],
-                    font = ("Arial", 20, "bold"),
-                    fg = Gui.JSON["label"]["last_msg_fg"],
-                    bg = self.cor_fundo,
-                    pady = 50
-                    )
         self.l_mensagem_final.pack()
         #e 1: mensagem lançada
 
@@ -371,6 +386,15 @@ class Gui(Tk):
                     self.destroy
                     )
         #e 4: FIM DO PROGRAMA!
+
+    def cll_processar_html(self):
+        #entrar na pasta, chamar cll_fim_do_programa
+        directory = Directory()
+        if not directory:
+            return None
+        os.chdir(directory)
+        self.cll_fim_do_programa()
+
 
 
 
