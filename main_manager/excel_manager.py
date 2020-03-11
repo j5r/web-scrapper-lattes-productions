@@ -1,13 +1,14 @@
 from openpyxl import Workbook as WB
+import json
+import os
+f = open("./main_manager/configs.json","r")
+getJSON = f.read()
+f.close()
+JSON = json.loads(getJSON)
 
 # nome das colunas da planilha excel gerada
-colunas = [
-"Counter",
-"Year",
-"JCR",
-"DOI",
-"Cite",
-]
+colunas = JSON["excel"]["full_articles_columns"]
+
 
 
 def criar_excel(arquivo, itens): #espera-se um arquivo ".nk"

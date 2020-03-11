@@ -1,4 +1,4 @@
-from Item import Item
+from main_manager.Item import Item
 
 # principal função do programa com o objetivo de capturar os dados da seção
 #----- Artigos completos publicados em periódicos -----
@@ -65,7 +65,7 @@ def get_cite_para_item(item):
         if teste in anos: # encontrando o primeiro ano dentro da string
             string = string[i+4:]
             return string
-    #e 1: o resultado é uma string
+    #e 1: o resultado retornado é uma string
 
 
 
