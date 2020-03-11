@@ -9,13 +9,13 @@ class Gui(Tk):
         #b 0: inicializando classe e criando parâmetros
         Tk.__init__(self)
         self.option_add('*tearOff', FALSE) #tira ---- da barra de menu
-        self.geometry("600x300")
+        self.geometry("800x300")
         self.title("Lattes2Excel")
         self.fonte = ("Arial",14,)
 
         if os.sys.platform == "linux":
             #comando para executar um url no navegador: http://...
-            self.__comando = "xgd-open " #linux
+            self.__comando = "xdg-open " #linux
         else:
             self.__comando = "start " #windows
         #e 0: parâmetros inicializados
@@ -108,7 +108,7 @@ class Gui(Tk):
         #b ..3: área de texto no frame 2
         self.t_text_area = Text(
                     self.fr2,
-                    width=55,
+                    width=70,
                     height=8,
                     insertwidth = 10,
                     font = ("Courier", 12)
@@ -228,6 +228,70 @@ class Gui(Tk):
             os.chdir(self.nome_pasta)
         #e 4: entramos na nova pasta
 
+        #b 5: adicionando novos botões: número de links e avançar
+        self.call_avancar()
+        #e 5: preparando para a execução final
+
+    def call_avancar(self):
+        #b 0: apagando o borão de avançar
+        self.b_salvar_avancar.destroy()
+        #e 0:
+
+        #b 1: adicionando botão: número de links e abrir links
+        self.l_numero_links = Label(#label
+                    self.fr2,
+                    text = "Quantos links abrir: ",
+                    font = self.fonte,
+                    )
+        self.l_numero_links.pack(side=LEFT)
+
+        self.e_numero_links = Entry(
+                    self.fr2,
+                    font = self.fonte,
+                    width = 10,
+                    )
+        self.e_numero_links.insert(0,"7")
+        self.e_numero_links.pack()
+
+        self.b_abrir = Button(
+                    self.fr3,
+                    text = "Abrir links",
+                    command = self.call_abrir_no_navegador,
+                    fg = "#fff",
+                    font = list(self.fonte) + ["bold"],
+                    bg = "#46f"
+                    )
+        self.b_abrir.pack()
+        #e 1: botões criados
+
+    def call_abrir_no_navegador(self):
+
+        try:
+            numero_de_links_para_abrir = int(self.e_numero_links.get())
+        except Exception as e:
+            print("Erro!", e)
+            self.call_abrir_mensagem_erro_Apenas_Numeros_Inteiros()
+            return None
+
+        for i in range(numero_de_links_para_abrir):
+            try:
+                url = self.url_list.pop()
+                print(url)
+                os.system(self.__comando + url)
+            except Exception as e:
+                print(e)
+                self.call_fim_do_programa()
+
+
+
+
+
+
+    def call_abrir_mensagem_erro_Apenas_Numeros_Inteiros(self):
+        pass
+
+    def call_fim_do_programa(self):
+        pass
 
 
 
