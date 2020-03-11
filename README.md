@@ -1,1 +1,1 @@
-Execute with *python3 main.py*
+Execute with *python3 gui.py*

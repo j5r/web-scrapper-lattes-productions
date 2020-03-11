@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as BS
 import os
 from main_manager.Item import Item
 import main_manager.full_articles_manager as full_art
-import main_manager.excel_manager
+import main_manager.excel_manager as excel_manager
 #Identificação
 #Formação acadêmica/titulação
 #Pós-doutorado e Livre-docência

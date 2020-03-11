@@ -33,6 +33,7 @@ class Gui(Tk):
 
         #b 1: criando as variáveis internas da gui
         self.url_list = []
+        self.url_list_erros = []
         self.nome_arquivo = Gui.JSON["self"]["unknown_file"]
         self.file_text = ""
         self.caminho = ""
@@ -303,9 +304,17 @@ class Gui(Tk):
             try:
                 url = self.url_list.pop()
                 print(url)
-                os.system(self.__comando + '"' + url + '"')
+                resultado = os.system(self.__comando + '"' + url + '"')
+                if resultado:
+                    print("Erro!!",url)
+                    self.url_list_erros.append(url)
+
+
             except Exception as e:
                 print(e)
+                f = open(Gui.JSON["error"]["url_list_error"],"w")
+                f.write("\n".join(self.url_list_erros))
+                f.close()
                 self.cll_fim_do_programa()
                 break
 

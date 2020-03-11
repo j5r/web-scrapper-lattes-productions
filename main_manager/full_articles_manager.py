@@ -4,8 +4,12 @@ from main_manager.Item import Item
 #----- Artigos completos publicados em periódicos -----
 def get_artigos_completos_publicados_em_periodicos(soup):
     #b 0: pegando a sopa de todos os 'Artigos completos publicados em periódicos'
-    itens = map(lambda item: item.find_all("div",{"class":"layout-cell-pad-5"})[-1],
-            soup.find_all("div",{"class", "artigo-completo"}))
+    try:
+        itens = map(lambda item: item.find_all("div",{"class":"layout-cell-pad-5"})[-1],
+                soup.find_all("div",{"class", "artigo-completo"}))
+    except Exception as e:
+        print("Erro!")
+        return [Item()]
     #e 0: resultando em uma lista de sopas
 
     #b 1: criando 'Item's para retornar

@@ -57,5 +57,9 @@
         "DOI",
         "Cite"
         ]
+    },
+
+"error":{
+    "url_list_error":"urls_nao_puderam_ser_abertos_corretamente.urls"
     }
 }
