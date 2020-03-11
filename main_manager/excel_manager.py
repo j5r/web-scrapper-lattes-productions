@@ -1,7 +1,7 @@
 from openpyxl import Workbook as WB
 import json
 import os
-f = open("./main_manager/configs.json","r")
+f = open("./main_manager/configs.json","rb")
 getJSON = f.read()
 f.close()
 JSON = json.loads(getJSON)
