@@ -2,11 +2,16 @@ from main_manager.Item import Item
 
 # principal função do programa com o objetivo de capturar os dados da seção
 #----- Artigos completos publicados em periódicos -----
-def get_artigos_completos_publicados_em_periodicos(soup):
+def get_trabalhos_completos_publicados_em_periodicos(soup):
     #b 0: pegando a sopa de todos os 'Artigos completos publicados em periódicos'
-    try:
-        itens = map(lambda item: item.find_all("div",{"class":"layout-cell-pad-5"})[-1],
-                soup.find_all("div",{"class": "artigo-completo"}))
+    try: #texto: Trabalhos completos publicados em anais de congressos
+        itens_a = soup.find_all("a",{"name":"TrabalhosPublicadosAnaisCongresso"})
+        itens = itens_a[0].parent.parent.findNextSiblings()
+        for i in range(len(itens)):
+            if itens[i].text == itens_a[1].parent.parent.text:
+                itens = itens[0:i]
+                break
+
     except Exception as e:
         print("Erro!")
         return [Item()]

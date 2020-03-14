@@ -1,6 +1,5 @@
 import os
 from bs4 import BeautifulSoup as BS
-import os
 from main_manager.Item import Item
 import main_manager.full_articles_manager as full_art
 import main_manager.excel_manager as excel_manager
@@ -42,7 +41,7 @@ import main_manager.excel_manager as excel_manager
 #Projetos de pesquisa
 
 
-def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
+def get_BS(arquivo):
     #b 0: verificando se o arquivo é um arquivo .nk
     if not arquivo.endswith(".nk"):
         print(f'Arquivo {arquivo} não é um arquivo ".nk"!')
@@ -59,24 +58,32 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
     except Exception as e:
         print("ERRO!",e)
         return None
+    else:
+        return bs
     #e 1: BS criado como "bs"
 
 
-    #b 2: obtendo a lista de artigos completos
+
+
+
+
+def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
+    #b 0: pegando BS do arquivo
+    bs = get_BS(arquivo)
+    #e 0: um beaultifulSoup foi gerado
+
+
+    #b 1: obtendo a lista de artigos completos
     itens_artigos_completos_publicados_em_periodicos = full_art.get_artigos_completos_publicados_em_periodicos(\
             bs.find("div",{"id":"artigos-completos"})
             )
-    #e 2: o resultado é uma lista de "Item"
+    #e 1: o resultado é uma lista de "Item"
 
 
-    #b 3: criar uma planilha com os itens
+    #b 2: criar uma planilha com os itens
     excel_manager.criar_excel(arquivo, itens_artigos_completos_publicados_em_periodicos)
     #return itens_artigos_completos_publicados_em_periodicos
-    #e 3:
-
-
-    #b 4:
-    #e 4:
+    #e 2:
 
 
 
