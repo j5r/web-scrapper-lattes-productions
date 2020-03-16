@@ -1,10 +1,7 @@
 from openpyxl import Workbook as WB
-import json
+from lattes.mglobal.configs import JSON
 import os
-f = open("./main_manager/configs.json","rb")
-getJSON = f.read()
-f.close()
-JSON = json.loads(getJSON)
+
 
 
 def criar_excel(arquivo, fll_articles, fll_works):

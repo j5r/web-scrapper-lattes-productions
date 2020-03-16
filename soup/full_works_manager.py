@@ -1,4 +1,4 @@
-from main_manager.Item import Item
+from lattes.mglobal.Item import Item
 
 # principal função do programa com o objetivo de capturar os dados da seção
 #----- Artigos completos publicados em periódicos -----

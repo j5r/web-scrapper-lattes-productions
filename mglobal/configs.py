@@ -1,4 +1,4 @@
-{
+JSON = {
 "self": {
     "geometry": "800x300",
     "unknown_file": "sem_nome.urls",

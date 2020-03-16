@@ -2,18 +2,17 @@ from tkinter import *
 from tkinter.filedialog import askopenfilename as Open #::>str
 from tkinter.filedialog import asksaveasfile as Save #::>file
 from tkinter.filedialog import askdirectory as Directory #::>str
-import json
-from main_manager.before import getJSON
+from lattes.mglobal.configs import JSON as JSON_
 import os
 import time
-from main_manager.main import processar_arquivos_pastas_e_gerar_planilhas as MAIN
+from lattes.main.main import processar_arquivos_pastas_e_gerar_planilhas as MAIN
 
 
 
 
 class Gui(Tk):
 
-    JSON = json.loads(getJSON())
+    JSON = JSON_
 
     def __init__(self):
         #b 0: inicializando classe e criando parâmetros

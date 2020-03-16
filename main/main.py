@@ -1,9 +1,9 @@
 import os
 from bs4 import BeautifulSoup as BS
-from main_manager.Item import Item
-import main_manager.full_articles_manager as full_art
-import main_manager.full_works_manager as full_works
-import main_manager.excel_manager as excel_manager
+from lattes.mglobal.Item import Item
+import lattes.soup.full_articles_manager as full_art
+import lattes.soup.full_works_manager as full_works
+from lattes.excel import excel_manager as excel_manager
 #Identificação
 #Formação acadêmica/titulação
 #Pós-doutorado e Livre-docência
