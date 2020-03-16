@@ -52,7 +52,17 @@
 
 
 "excel":{
+    "full_articles_sheet_name": "Artigos Completos",
     "full_articles_columns":[
+        "Counter",
+        "Year",
+        "JCR",
+        "DOI",
+        "Cite"
+        ],
+
+    "full_works_sheet_name": "Trabalhos completos",
+    "full_works_columns":[
         "Counter",
         "Year",
         "JCR",
@@ -60,6 +70,7 @@
         "Cite"
         ]
     },
+
 
 "error":{
     "url_list_error":"urls_nao_puderam_ser_abertos_corretamente.urls"

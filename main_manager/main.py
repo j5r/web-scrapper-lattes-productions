@@ -2,6 +2,7 @@ import os
 from bs4 import BeautifulSoup as BS
 from main_manager.Item import Item
 import main_manager.full_articles_manager as full_art
+import main_manager.full_works_manager as full_works
 import main_manager.excel_manager as excel_manager
 #Identificação
 #Formação acadêmica/titulação
@@ -74,14 +75,24 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
 
 
     #b 1: obtendo a lista de artigos completos
-    itens_artigos_completos_publicados_em_periodicos = full_art.get_artigos_completos_publicados_em_periodicos(\
-            bs.find("div",{"id":"artigos-completos"})
-            )
+    itens_artigos_completos_publicados_em_periodicos = \
+                full_art.get_artigos_completos_publicados_em_periodicos(\
+                        bs.find("div",{"id":"artigos-completos"})
+                )
     #e 1: o resultado é uma lista de "Item"
+
+    #b 2: obtendo a lista de trabalhos completos
+    itens_trabalhos_completos_publicados_em_anais_de_congressos = \
+                full_works.get_trabalhos_completos_publicados_em_periodicos(bs)
+    #e 2: o resultado é uma lista de "Item"
 
 
     #b 2: criar uma planilha com os itens
-    excel_manager.criar_excel(arquivo, itens_artigos_completos_publicados_em_periodicos)
+    excel_manager.criar_excel(
+                arquivo,
+                itens_artigos_completos_publicados_em_periodicos,
+                itens_trabalhos_completos_publicados_em_anais_de_congressos
+                )
     #return itens_artigos_completos_publicados_em_periodicos
     #e 2:
 

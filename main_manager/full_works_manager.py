@@ -11,6 +11,11 @@ def get_trabalhos_completos_publicados_em_periodicos(soup):
             if itens[i].text == itens_a[1].parent.parent.text:
                 itens = itens[0:i]
                 break
+        itens_ = []
+        for i in itens:
+            if len(i.text) > 10:
+                itens_.append(i)
+        itens = itens_
 
     except Exception as e:
         print("Erro!")
@@ -21,23 +26,17 @@ def get_trabalhos_completos_publicados_em_periodicos(soup):
     lista_de_itens = []
     for item in itens:
         ans = Item()
-        try: # tentando pegar o JCR
-            ans.jcr = item.find("span",{"data-tipo-ordenacao":"jcr"}).text
-        except:
-            pass
 
         try: # tentando pegar o URL DOI
             ans.doi = item.find("a", {"class":"icone-producao icone-doi"})["href"]
         except:
             pass
 
-
-        ans.ano = item.find("span",{"data-tipo-ordenacao":"ano"}).text
         ans.soup = item
 
-        #b 2-0: pegando a citação para um dado artigo
-        ans.cite = get_cite_para_item(item)
-        #e 2-0: o resultado é uma string
+        #b 2-0: pegando a citação e ano para um dado artigo
+        ans = get_cite_e_ano_para_item(ans)
+        #e 2-0: entra um Item e retorna um Item
 
         lista_de_itens.append(ans)
     #e 2: retornando uma lista de 'Item's
@@ -45,7 +44,7 @@ def get_trabalhos_completos_publicados_em_periodicos(soup):
 
 
 
-def get_cite_para_item(item):
+def get_cite_e_ano_para_item(item):
     """vamos tratar strings: encontrar o ano e pegar a string que vem
     imediatamente depois"""
 
@@ -54,7 +53,7 @@ def get_cite_para_item(item):
     anos = list(map(str,range(1900,2050)))
     #e 0: o resultado é uma lista de strings
 
-    string = item.text
+    string = item.soup.text.strip()
 
 
     """Um exemplo da string de entrada
@@ -70,10 +69,12 @@ def get_cite_para_item(item):
 
     #b 1: iterando os caracteres da string para encontrar um ano da lista
     for i in range(len(string)):
-        teste = string[i:i+4]
-        if teste in anos: # encontrando o primeiro ano dentro da string
-            string = string[i+4:]
-            return string
+        ano_teste = string[i:i+4]
+        if ano_teste in anos: # encontrando o primeiro ano dentro da string
+            item.ano = ano_teste
+            item.cite = string
+            return item
+    return item
     #e 1: o resultado retornado é uma string
 
 

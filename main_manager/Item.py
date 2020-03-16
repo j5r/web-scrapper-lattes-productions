@@ -58,10 +58,10 @@ class Item:
         self.__soup = soup
 
     def __str__(self):
-        return azul("ano: ") + roxo(self.ano) \
+        return "\n" + azul("ano: ") + roxo(self.ano) \
             + azul("\njcr: ") + roxo(self.jcr)\
             + azul("\ndoi: ") + roxo(self.doi)\
             + azul("\ncite: ") + roxo(self.cite)\
-            + azul("\nsoup: ") + roxo(self.soup)
+            + azul("\nsoup: ") + roxo(self.soup) + "\n"
     def __repr__(self):
         return self.__str__()
