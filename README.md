@@ -1,16 +1,24 @@
-# Tutorial in Portuguese (Whatch these two videos)
+# Tenha o Python 3 instalado
 
- - [ ] Access the 1st part here: [http://www.youtube.com/watch?v=DHReSJZJ9v4](http://www.youtube.com/watch?v=DHReSJZJ9v4 "").
+ - Caso ainda não tenha o Python 3 instalado, acesse o site oficial em
+    [Python.org](https://www.python.org).
 
-[![](http://img.youtube.com/vi/DHReSJZJ9v4/0.jpg)](http://www.youtube.com/watch?v=DHReSJZJ9v4 "")
- 
- - [ ] Access the 2nd part here: [http://www.youtube.com/watch?v=awxFfPSO98A](http://www.youtube.com/watch?v=awxFfPSO98A).
+## Tutorial em Português (Assista esses dois vídeos)
 
-[![](http://img.youtube.com/vi/awxFfPSO98A/0.jpg)](http://www.youtube.com/watch?v=awxFfPSO98A "")
+ - Acesse a primeira parte aqui:
+    [http://www.youtube.com/watch?v=DHReSJZJ9v4](http://www.youtube.com/watch?v=DHReSJZJ9v4 "").
+    [![](http://img.youtube.com/vi/DHReSJZJ9v4/0.jpg)](http://www.youtube.com/watch?v=DHReSJZJ9v4 "")
+
+ - Acesse a segunda parte aqui:
+    [http://www.youtube.com/watch?v=awxFfPSO98A](http://www.youtube.com/watch?v=awxFfPSO98A).
+    [![](http://img.youtube.com/vi/awxFfPSO98A/0.jpg)](http://www.youtube.com/watch?v=awxFfPSO98A "")
 
 
-# Execute with *python3 gui.pyw*
+## Execute com *python3 gui.pyw*
 
- - [ ] Linux: On terminal, execute **```python3 gui.pyw```**.
+ - Linux: No terminal, execute **```python3 gui.pyw```**.
 
- - [ ] Windows: Just double-click on it, or type **```py gui.pyw```** on terminal.
+ - Windows: Apenas dê um duplo clique no arquivo **```gui.pyw```** ou execute **```py gui.pyw```**
+    no terminal (CMD ou PowerShell).
+
+

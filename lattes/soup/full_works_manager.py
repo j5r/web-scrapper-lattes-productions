@@ -2,7 +2,7 @@ from lattes.mglobal.Item import Item
 
 # principal função do programa com o objetivo de capturar os dados da seção
 #----- Artigos completos publicados em periódicos -----
-def get_trabalhos_completos_publicados_em_periodicos(soup):
+def get_itens(soup):
     #b 0: pegando a sopa de todos os 'Artigos completos publicados em periódicos'
     try: #texto: Trabalhos completos publicados em anais de congressos
         itens_a = soup.find_all("a",{"name":"TrabalhosPublicadosAnaisCongresso"})

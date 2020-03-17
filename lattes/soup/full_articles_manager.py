@@ -2,9 +2,10 @@ from lattes.mglobal.Item import Item
 
 # principal função do programa com o objetivo de capturar os dados da seção
 #----- Artigos completos publicados em periódicos -----
-def get_artigos_completos_publicados_em_periodicos(soup):
+def get_itens(soup):
     #b 0: pegando a sopa de todos os 'Artigos completos publicados em periódicos'
     try:
+        soup = soup.find("div",{"id":"artigos-completos"})
         itens = map(lambda item: item.find_all("div",{"class":"layout-cell-pad-5"})[-1],
                 soup.find_all("div",{"class": "artigo-completo"}))
     except Exception as e:

@@ -273,7 +273,7 @@ class Gui(Tk):
 
 
         #b 3: abrindo o arquivo com as eventuais modificações
-        arquivo = open(nome_arquivo,"r")
+        arquivo = open(caminho_arquivo+"/"+nome_arquivo,"r")
         self.url_list = list(
                     map(lambda l: l.strip(),
                         arquivo.readlines(),

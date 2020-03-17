@@ -1,9 +1,8 @@
 import os
 from bs4 import BeautifulSoup as BS
-from lattes.mglobal.Item import Item
-import lattes.soup.full_articles_manager as full_art
-import lattes.soup.full_works_manager as full_works
-from lattes.excel import excel_manager as excel_manager
+import lattes.soup.full_articles_manager as FULLARTS
+import lattes.soup.full_works_manager as FULLWORKS
+from lattes.excel.xl import XL
 #Identificação
 #Formação acadêmica/titulação
 #Pós-doutorado e Livre-docência
@@ -14,10 +13,10 @@ from lattes.excel import excel_manager as excel_manager
 #Áreas de atuação
 #Idiomas
 #Prêmios e títulos
-#Artigos completos publicados em periódicos ------- desenvolvendo
+#Artigos completos publicados em periódicos ------- ok
 #Livros publicados/organizados ou edições
 #Capítulos de livros publicados
-#Trabalhos completos publicados em anais de congressos
+#Trabalhos completos publicados em anais de congressos -------- ok
 #--Participação em bancas de trabalhos de conclusão
 ##Mestrado
 ##Teses de doutorado
@@ -75,24 +74,25 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
 
 
     #b 1: obtendo a lista de artigos completos
-    itens_artigos_completos_publicados_em_periodicos = \
-                full_art.get_artigos_completos_publicados_em_periodicos(\
-                        bs.find("div",{"id":"artigos-completos"})
-                )
+    itens_fullarts = FULLARTS.get_itens(bs)
+
     #e 1: o resultado é uma lista de "Item"
 
     #b 2: obtendo a lista de trabalhos completos
-    itens_trabalhos_completos_publicados_em_anais_de_congressos = \
-                full_works.get_trabalhos_completos_publicados_em_periodicos(bs)
+    itens_fullworks = FULLWORKS.get_itens(bs)
     #e 2: o resultado é uma lista de "Item"
 
 
     #b 2: criar uma planilha com os itens
-    excel_manager.criar_excel(
-                arquivo,
-                itens_artigos_completos_publicados_em_periodicos,
-                itens_trabalhos_completos_publicados_em_anais_de_congressos
+    EXCEL = XL(arquivo)
+    EXCEL.artigos_completos(
+                itens_fullarts,
                 )
+
+    EXCEL.trabalhos_completos(
+                itens_fullworks,
+                )
+    EXCEL.save()
     #return itens_artigos_completos_publicados_em_periodicos
     #e 2:
 
@@ -143,9 +143,12 @@ def processar_arquivos_pastas_e_gerar_planilhas():
     #e *: todas as pastas serão deletadas
 
 
-
-
     #b 3: iterando sobre a lista de arquivos .nk
-        for arquivo in lista_de_arquivos_nk:
-            pega_arquivo_nk_e_faz_tudo(arquivo)
+    for arquivo in lista_de_arquivos_nk:
+        pega_arquivo_nk_e_faz_tudo(arquivo)
     #e 3: uma planilha excel será gerada para cada arquivo .html
+
+
+
+
+
