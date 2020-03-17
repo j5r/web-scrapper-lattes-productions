@@ -405,4 +405,3 @@ class Gui(Tk):
 
 
 
-Gui()
