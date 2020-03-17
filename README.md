@@ -21,4 +21,7 @@
  - Windows: Apenas dê um duplo clique no arquivo **```gui.pyw```** ou execute **```py gui.pyw```**
     no terminal (CMD ou PowerShell).
 
+## Arquivo de configurações
+
+ - O arquivo de configurações foi movido para a pasta **```lattes/mglobal/configs.py```**.
 
