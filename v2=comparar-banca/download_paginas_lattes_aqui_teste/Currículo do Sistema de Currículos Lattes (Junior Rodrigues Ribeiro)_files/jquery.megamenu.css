@@ -1,0 +1,103 @@
+.megamenu {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 0 none;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+	display: none;
+	font: 11px Tahoma, Geneva, sans-serif;
+	height: auto !important;
+	left: 0;
+	margin: 21px 0 0 -2px !important;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	width: auto !important;
+	z-index: 100;
+}
+.megamenu .column {
+	float: left;
+	margin-right: 5px;
+	width: 250px;
+}
+.megamenu .column ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.megamenu .column ul li {
+	background-image: url("../images/v2/ponto.gif");
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding: 2px 0 3px 7px;
+}
+.megamenu .column h3 {
+	background: none repeat scroll 0 0 #5698C9;
+	color: #FFFFFF;
+	font: 13px Tahoma;
+	margin: 0 0 2px;
+	padding: 0 0 1px 5px;
+}
+.megamenu .column ul li a {
+	color: #265479;
+	font-weight: bold;
+	text-decoration: none;
+}
+.megamenu .column ul li.linha {
+    background: none repeat scroll 0 0 #5698C9;
+    padding: 0 0 1px 5px;
+}
+.megamenu .column ul li a:hover {
+	color: #3399FF;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.menuPrincipal {
+	background: url("../images/v2/bg_menu_principal.jpg") repeat-x scroll 0 0 #E1EAF2;
+	display: block;
+	width: 100%;
+}
+.menuCtl {
+	background: url("../images/v2/bg_menu.png") no-repeat scroll center center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	margin: 0 auto;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+.menucent {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 1024px;
+}
+.menuCtl a:link {
+	color: #FFFFFF;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 5px 5px 5px 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.menuCtl a.separador {
+	background-image: url("../images/v2/separador.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.menuCtl a:link {
+	color: #FFFFFF;
+	padding: 0 5px 0 10px !important;
+	text-decoration: none;
+}
+.navigation-wrapper {
+	background-color: #E1EAF2;
+	background-image: url("../images/v2/bg_menu_principal.jpg");
+	background-repeat: repeat-x;
+	height: auto;
+	padding: 0;
+}
+#menu-producoes {
+    left: auto !important;
+    margin: 22px 50px !important;
+}
