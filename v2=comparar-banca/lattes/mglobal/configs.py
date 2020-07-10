@@ -68,6 +68,12 @@ JSON = {
         "JCR",
         "DOI",
         "Cite"
+        ],
+
+    "exam_commissions_sheet_name": "Bancas",
+    "exam_commissions_columns":[
+        "Counter",
+        "Item"
         ]
     },
 

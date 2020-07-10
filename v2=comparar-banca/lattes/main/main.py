@@ -2,6 +2,7 @@ import os
 from bs4 import BeautifulSoup as BS
 import lattes.soup.full_articles_manager as FULLARTS
 import lattes.soup.full_works_manager as FULLWORKS
+import lattes.soup.exam_commissions_manager as EXAMCOMMISSIONS
 from lattes.excel.xl import XL
 #Identificação
 #Formação acadêmica/titulação
@@ -82,6 +83,10 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
     itens_fullworks = FULLWORKS.get_itens(bs)
     #e 2: o resultado é uma lista de "Item"
 
+    #b 2.1 obtendo a lista de bancas
+    itens_exam_commissions = EXAMCOMMISSIONS.get_itens(bs)
+    #e 2.1
+
 
     #b 2: criar uma planilha com os itens
     EXCEL = XL(arquivo)
@@ -91,6 +96,10 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
 
     EXCEL.trabalhos_completos(
                 itens_fullworks,
+                )
+    ####################################!!!!!!!!ADICIONAR AQUI
+    EXCEL.bancas(
+                itens_exam_commissions,
                 )
     EXCEL.save()
     #return itens_artigos_completos_publicados_em_periodicos

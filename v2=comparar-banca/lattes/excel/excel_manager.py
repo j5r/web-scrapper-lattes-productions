@@ -17,7 +17,7 @@ def artigos_completos(arquivo, itens, wb):
     try: #tentando excluir a folha padrão "Sheet"
         wb.remove(wb.get_sheet_by_name("Sheet"))
     except Exception as e:
-        print(e)
+        print("Warning: ",e)
 
     FULL_ARTICLES.append(colunas_full_articles)
 
@@ -42,11 +42,6 @@ def trabalhos_completos(arquivo, itens, wb):
     wb.create_sheet(full_works)
     FULL_WORKS = wb.get_sheet_by_name(full_works)
 
-    try: #tentando excluir a folha padrão "Sheet"
-        wb.remove(wb.get_sheet_by_name("Sheet"))
-    except Exception as e:
-        print(e)
-
     FULL_WORKS.append(colunas_full_works)
 
     for i in range(len(itens)):
@@ -58,6 +53,27 @@ def trabalhos_completos(arquivo, itens, wb):
             itens[i].cite,
         ]
         FULL_WORKS.append(linha)
+
+
+
+def participacao_bancas_trabalhos_conclusao(arquivo,itens,wb):
+    colunas_bancas = JSON["excel"]["exam_commissions_columns"]
+
+
+    sheet_name = JSON["excel"]["exam_commissions_sheet_name"]
+    wb.create_sheet(sheet_name)
+    BANCAS = wb.get_sheet_by_name(sheet_name)
+
+    BANCAS.append(colunas_bancas)
+
+    ### append
+    for i in range(len(itens)):
+        linha = [
+            i+1,
+            itens[i]
+        ]
+        BANCAS.append(linha)
+
 
 
 
