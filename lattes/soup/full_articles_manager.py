@@ -9,7 +9,7 @@ def get_itens(soup):
         itens = map(lambda item: item.find_all("div",{"class":"layout-cell-pad-5"})[-1],
                 soup.find_all("div",{"class": "artigo-completo"}))
     except Exception as e:
-        print("Erro!")
+        print("Erro!",e)
         return [Item()]
     #e 0: resultando em uma lista de sopas
 

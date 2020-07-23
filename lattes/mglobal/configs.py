@@ -83,6 +83,12 @@ JSON = {
         "Counter",
         "Year",
         "Item"
+        ],
+    "journal_reviewer_sheet_name": "RevisorPeriodico",
+    "journal_reviewer_columns":[
+        "Counter",
+        "Year",
+        "Item"
         ]
     },
 

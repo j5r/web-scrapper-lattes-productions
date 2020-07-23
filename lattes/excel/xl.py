@@ -3,14 +3,15 @@ from lattes.excel.excel_manager import (
                         artigos_completos as FULLARTS,
                         trabalhos_completos as FULLWORKS,
                         participacao_bancas_trabalhos_conclusao as EXAMCOMMISSION,
-                        membro_editorial as EDITORIALMEMBER
+                        membro_editorial as EDITORIALMEMBER,
+                        revisor_de_periodico as EDITORIALREVIEWER
                     )
 
 
 class XL:
     def __init__(self, arquivo):
         #espera-se um arquivo ".nk"
-        self.arquivo = arquivo[:arquivo.find(".nk")] + ".xls"
+        self.arquivo = arquivo[:arquivo.find(".html")] + ".xls"
 
         # criando um Workbook
         self.wb = WB()
@@ -30,6 +31,9 @@ class XL:
 
     def membro_editorial(self, itens):
         EDITORIALMEMBER(self.arquivo, itens, self.wb)
+
+    def revisor_de_periodico(self,itens):
+        EDITORIALREVIEWER(self.arquivo, itens, self.wb)
 
 
 

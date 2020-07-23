@@ -18,7 +18,7 @@ def get_itens(soup):
         itens = itens_
 
     except Exception as e:
-        print("Erro!")
+        print("Erro!",e)
         return [Item()]
     #e 0: resultando em uma lista de sopas
 

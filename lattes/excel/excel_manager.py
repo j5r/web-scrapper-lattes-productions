@@ -86,3 +86,15 @@ def membro_editorial(arquivo, itens, wb):
         linha.extend(itens[i])
         EDITORIAL.append(linha)
 
+
+def revisor_de_periodico(arquivo, itens, wb):
+    colunas_membro = JSON["excel"]["journal_reviewer_columns"]
+    sheet_name = JSON["excel"]["journal_reviewer_sheet_name"]
+    wb.create_sheet(sheet_name)
+    REVIEWER = wb.get_sheet_by_name(sheet_name)
+
+    REVIEWER.append(colunas_membro)
+    for i in range(len(itens)):
+        linha = [i+1]
+        linha.extend(itens[i])
+        REVIEWER.append(linha)

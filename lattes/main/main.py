@@ -4,6 +4,7 @@ import lattes.soup.full_articles_manager as FULLARTS
 import lattes.soup.full_works_manager as FULLWORKS
 import lattes.soup.exam_commissions_manager as EXAMCOMMISSIONS
 import lattes.soup.editorial_member_manager as EDITORIALMEMBER
+import lattes.soup.journal_reviewer_manager as EDITORIALREVIEWER
 from lattes.excel.xl import XL
 #Identificação
 #Formação acadêmica/titulação
@@ -11,7 +12,8 @@ from lattes.excel.xl import XL
 #Atuação Profissional
 #Linhas de pesquisa
 #Projetos de pesquisa
-#Membro de corpo editorial
+#Membro de corpo editorial ------- ok
+#Revisor de periódico >>>>>
 #Áreas de atuação
 #Idiomas
 #Prêmios e títulos
@@ -19,16 +21,16 @@ from lattes.excel.xl import XL
 #Livros publicados/organizados ou edições
 #Capítulos de livros publicados
 #Trabalhos completos publicados em anais de congressos -------- ok
-#--Participação em bancas de trabalhos de conclusão
-##Mestrado
-##Teses de doutorado
-#Qualificações de Doutorado
-#Qualificações de Mestrado
-#Trabalhos de conclusão de curso de graduação
-#--Outros tipos
-#--Participação em bancas de comissões julgadoras
-##Concurso público
-##Outras participações
+#--Participação em bancas de trabalhos de conclusão  -------- ok
+##Mestrado  -------- ok
+##Teses de doutorado  -------- ok
+##Qualificações de Doutorado  -------- ok
+##Qualificações de Mestrado  -------- ok
+##Trabalhos de conclusão de curso de graduação  -------- ok
+##--Outros tipos  -------- ok
+#--Participação em bancas de comissões julgadoras  -------- ok
+##Concurso público  -------- ok
+##Outras participações  -------- ok
 #--Eventos
 ##Participação em eventos, congressos, exposições e feiras
 ##Organização de eventos, congressos, exposições e feiras
@@ -45,8 +47,8 @@ from lattes.excel.xl import XL
 
 def get_BS(arquivo):
     #b 0: verificando se o arquivo é um arquivo .nk
-    if not arquivo.endswith(".nk"):
-        print(f'Arquivo {arquivo} não é um arquivo ".nk"!')
+    if not arquivo.endswith(".html"):
+        print(f'Arquivo {arquivo} não é um arquivo ".html"!')
         return None
     #e 0: se o arquivo não é um arquivo .nk, retorna vazio
 
@@ -92,6 +94,10 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
     itens_editorial_member = EDITORIALMEMBER.get_itens(bs)
     #e 2.2
 
+    #b 2.3
+    itens_editorial_reviewer = EDITORIALREVIEWER.get_itens(bs)
+    #e 2.3
+
 
     #b 2: criar uma planilha com os itens
     EXCEL = XL(arquivo)
@@ -108,6 +114,9 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
                 )
     EXCEL.membro_editorial(
                 itens_editorial_member
+                )
+    EXCEL.revisor_de_periodico(
+                itens_editorial_reviewer
                 )
 
     EXCEL.save()
@@ -135,8 +144,11 @@ def processar_arquivos_pastas_e_gerar_planilhas():
 
     #b 1: renomeando os arquivos: a extensão .html será alterada para .nk
     for arquivo in lista_de_arquivos_html:
-        nome = arquivo.split("(")[1].split(")")[0].replace(" ","_") + ".nk"
-        os.rename(arquivo, nome)
+        try:
+            nome = arquivo.split("(")[1].split(")")[0].replace(" ","_") + ".html"
+            os.rename(arquivo, nome)
+        except:
+            pass
     #e 1: o nome do arquivo será o nome entre parênteses, com _ no lugar de
     #e 1:                                                           espaços
     #e 1: Exemplo:
@@ -145,7 +157,7 @@ def processar_arquivos_pastas_e_gerar_planilhas():
 
 
     #b 2: listando os arquivos .nk presentes na pasta atual
-    lista_de_arquivos_nk = filter(lambda x: x.endswith(".nk"), os.listdir())
+    lista_de_arquivos_nk = filter(lambda x: x.endswith(".html"), os.listdir())
     #e 2: uma lista de strings, os nomes dos arquivos.
 
 
