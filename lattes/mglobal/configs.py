@@ -1,6 +1,6 @@
 JSON = {
 "self": {
-    "geometry": "800x300",
+    "geometry": "800x400",
     "unknown_file": "sem_nome.urls",
     "folder_to_download": "download_paginas_lattes_aqui",
     "bg_for_the_end": "#000",
@@ -75,6 +75,12 @@ JSON = {
         "Counter",
         "Commission",
         "Type",
+        "Year",
+        "Item"
+        ],
+    "editorial_member_sheet_name": "MembroEditorial",
+    "editorial_member_columns":[
+        "Counter",
         "Year",
         "Item"
         ]

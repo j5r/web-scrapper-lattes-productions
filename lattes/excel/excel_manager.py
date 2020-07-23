@@ -74,5 +74,15 @@ def participacao_bancas_trabalhos_conclusao(arquivo,itens,wb):
 
 
 
+def membro_editorial(arquivo, itens, wb):
+    colunas_membro = JSON["excel"]["editorial_member_columns"]
+    sheet_name = JSON["excel"]["editorial_member_sheet_name"]
+    wb.create_sheet(sheet_name)
+    EDITORIAL = wb.get_sheet_by_name(sheet_name)
 
+    EDITORIAL.append(colunas_membro)
+    for i in range(len(itens)):
+        linha = [i+1]
+        linha.extend(itens[i])
+        EDITORIAL.append(linha)
 

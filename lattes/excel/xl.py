@@ -2,7 +2,8 @@ from openpyxl import Workbook as WB
 from lattes.excel.excel_manager import (
                         artigos_completos as FULLARTS,
                         trabalhos_completos as FULLWORKS,
-                        participacao_bancas_trabalhos_conclusao as EXAMCOMMISSION
+                        participacao_bancas_trabalhos_conclusao as EXAMCOMMISSION,
+                        membro_editorial as EDITORIALMEMBER
                     )
 
 
@@ -26,5 +27,9 @@ class XL:
 
     def bancas(self, itens):
         EXAMCOMMISSION(self.arquivo, itens, self.wb)
+
+    def membro_editorial(self, itens):
+        EDITORIALMEMBER(self.arquivo, itens, self.wb)
+
 
 

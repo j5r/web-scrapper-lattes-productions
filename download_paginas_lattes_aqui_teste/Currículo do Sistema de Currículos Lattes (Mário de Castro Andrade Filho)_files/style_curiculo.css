@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+.m-isntituicoes {
+	background: none repeat scroll 0 0 #F4F8FB;
+	border-radius: 4px 4px 4px 4px !important;
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 8px;
+	padding: 1px 0 9px 3px;
+}
+.m-isntituicoes li {
+	background: none repeat scroll 0 0 #F4F8FB;
+	border-radius: 4px 4px 4px 4px;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	margin-top: 5px;
+	padding: 1px 0 0;
+	width: 120px;
+}
+.tit_resumo {
+	font-size: 16px;
+	margin-top: 69px;
+}
+p.resumo {
+	color: #666666;
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 8px;
+	padding: 5px;
+	text-align: justify;
+	text-indent: 20px;
+}
+.infpessoa {
+	margin-top: 11px;
+	margin-left: 114px;
+}
+.inf_list {
+	list-style: none;
+}
+.nome {
+	color: #006699;
+	font-size: 19px;
+	margin-bottom: 12px;
+	padding-top: 8px;
+}
+.img_link {
+    background-image: url("../images/v2/sprit_icons_topo.png");
+    background-position: 0 center;
+    height: 18px;
+    margin-top: 3px;
+    position: absolute;
+    width: 16px;
+}
+.img_identy {
+    background-image: url("../images/v2/sprit_icons_topo.png");
+    background-position: 16px center;
+    height: 18px;
+    margin-top: 3px;
+    position: absolute;
+    width: 16px;
+}
+.img_history {
+	background-image: url("../images/v2/sprit_icons_topo.png");
+	background-position: -54px center;
+	background-repeat: no-repeat;
+	height: 18px;
+	margin-top: 3px;
+	position: absolute;
+	width: 18px;
+}
+.img_atual {
+	background-image: url("../images/v2/sprit_icons_topo.png");
+	background-position: 36px center;
+	height: 18px;
+	margin-top: 3px;
+	position: absolute;
+	width: 18px;
+}
+.img_cert {
+    background-image: url("../images/v2/sprit_icons_topo.png");
+    background-position: -31px center;
+    height: 16px;
+    margin-top: 3px;
+    position: absolute;
+    width: 16px;
+}
+.img_orcid {
+	background-image: url("../images/v2/icone_orcid.png");
+	height: 18px;
+	margin-top: 3px;
+	position: absolute;
+	width: 18px;
+}
+.img_lattes {
+	background-image: url("../images/v2/icone_lattes.png");
+	height: 18px;
+	margin-top: 3px;
+	position: absolute;
+	width: 18px;
+}
+.inf_list li a {
+	color: #666666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 24px;
+	margin-left: 22px;
+}
+.data-cell {
+	font-size: 11px;
+	line-height: 15px;
+}
+.layout-cell-pad-5 {
+	padding: 22px 10px 0 0;
+}
+.inst_back {
+	background: none repeat scroll 0 0 #006699;
+	border-radius: 4px 4px 4px 4px;
+	color: #FFFFFF;
+	font-size: 12px;
+	margin: 9px 5px 0 30px;
+	padding: 6px;
+	text-indent: 7px;
+}
+.subtit-1 {
+	color: #666666;
+	font-size: 12px;
+}
+.cert_coord {
+	background-color: #EFEFEF;
+	border: 1px dashed #006699;
+	border-radius: 4px 4px 4px 4px;
+	color: #006699;
+	font-weight: bold;
+	padding: 4px;
+}
+.cert_empr {
+	background-color: #EFEFEF;
+	border: 1px dashed #006699;
+	border-radius: 4px 4px 4px 4px;
+	color: #006699;
+	font-weight: bold;
+	padding: 4px;
+}
+.science_cont {
+	background-color: #FFFFFF;
+	border: 1px solid #A6C0D9;
+	border-radius: 4px 4px 4px 4px;
+	margin-left: 88px;
+	padding: 10px;
+	width: 96%;
+}
+.web_s {
+	border-bottom: 1px solid #A6C0D9;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+.trab {
+	float: left;
+	margin-right: 100px;
+}
+.cita {
+	float: left;
+}
+.fator {
+	float: right;
+}
+.science_cont .detalhes {
+	margin: 38px auto 0;
+	width: 312px;
+}
+.cita-artigos {
+	color: #326C99;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 13px 0 0 66px;
+}
+.main-content .title-wrapper h1 {
+	color: #326C99;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 17px !important;
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+.data-numero-citacoes-A {
+	color:red;
+	display:none;
+}
+.data-numero-citacoes-B {
+	color:Blue;
+	display:none;
+}
+.data-numero-citacoes-C {
+	color:orange;
+	display:none;
+}
+.nome-autor-citacoes {
+	color:green;
+	display:none;
+}
+ul.IndicProdTabela {
+	line-height: 2em;
+	list-style: decimal outside none;
+	margin-left: 114px;
+}
+.main-content .sub_tit_form {
+	color: #326C99;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	margin-left: 93px;
+}
+#ordenaCitacao {
+	margin-left: 90px;
+}
+.list_num {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 24px;
+	list-style: decimal outside none;
+}
+.list_num li span {
+	color: #326C99;
+	font-weight: normal;
+}
+.list_num li {
+}
+.list_num li span {
+}
+
+.web_s a {
+	float: right;
+	margin-top: -6px;
+}
+
