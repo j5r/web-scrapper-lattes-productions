@@ -1,11 +1,14 @@
 from bs4 import BeautifulSoup as BS
-from editorial_member_manager import *
+from researcher_project_manager import *
 
-f = open("../../download_paginas_lattes_aqui_teste/Currículo do Sistema de Currículos Lattes (Eduardo Fontoura Costa).html","rb")
+f = open("../../download_paginas_lattes_aqui_teste/Eduardo_Fontoura_Costa.html","rb")
 soup = BS(f.read().decode("latin8"),"html.parser")
 f.close()
 
 DOM_ITEMS = get_itens(soup)
+
+
+
 
 
 for i in DOM_ITEMS:

@@ -78,17 +78,27 @@ JSON = {
         "Year",
         "Item"
         ],
+
     "editorial_member_sheet_name": "MembroEditorial",
     "editorial_member_columns":[
         "Counter",
         "Year",
         "Item"
         ],
+
     "journal_reviewer_sheet_name": "RevisorPeriodico",
     "journal_reviewer_columns":[
         "Counter",
         "Year",
         "Item"
+        ],
+
+    "researcher_project_sheet_name": "ProjetosPesquisa",
+    "researcher_project_columns":[
+        "Counter",
+        "Year",
+        "Item",
+        "Description"
         ]
     },
 

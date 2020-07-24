@@ -4,7 +4,8 @@ from lattes.excel.excel_manager import (
                         trabalhos_completos as FULLWORKS,
                         participacao_bancas_trabalhos_conclusao as EXAMCOMMISSION,
                         membro_editorial as EDITORIALMEMBER,
-                        revisor_de_periodico as EDITORIALREVIEWER
+                        revisor_de_periodico as EDITORIALREVIEWER,
+                        projetos_pesquisa as RESEARCHPROJECTS
                     )
 
 
@@ -34,6 +35,9 @@ class XL:
 
     def revisor_de_periodico(self,itens):
         EDITORIALREVIEWER(self.arquivo, itens, self.wb)
+
+    def projetos_pesquisa(self,itens):
+        RESEARCHPROJECTS(self.arquivo, itens, self.wb)
 
 
 

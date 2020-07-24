@@ -5,6 +5,7 @@ import lattes.soup.full_works_manager as FULLWORKS
 import lattes.soup.exam_commissions_manager as EXAMCOMMISSIONS
 import lattes.soup.editorial_member_manager as EDITORIALMEMBER
 import lattes.soup.journal_reviewer_manager as EDITORIALREVIEWER
+import lattes.soup.researcher_project_manager as RESEARCPROJECTS
 from lattes.excel.xl import XL
 #Identificação
 #Formação acadêmica/titulação
@@ -98,6 +99,9 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
     itens_editorial_reviewer = EDITORIALREVIEWER.get_itens(bs)
     #e 2.3
 
+    #b 2.4
+    itens_projeto_pesquisa = RESEARCPROJECTS.get_itens(bs)
+    #e 2.4
 
     #b 2: criar uma planilha com os itens
     EXCEL = XL(arquivo)
@@ -117,6 +121,9 @@ def pega_arquivo_nk_e_faz_tudo(arquivo): #arquivo .nk
                 )
     EXCEL.revisor_de_periodico(
                 itens_editorial_reviewer
+                )
+    EXCEL.projetos_pesquisa(
+                itens_projeto_pesquisa
                 )
 
     EXCEL.save()

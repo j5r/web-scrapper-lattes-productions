@@ -98,3 +98,16 @@ def revisor_de_periodico(arquivo, itens, wb):
         linha = [i+1]
         linha.extend(itens[i])
         REVIEWER.append(linha)
+
+
+def projetos_pesquisa(arquivo, itens, wb):
+    colunas_membro = JSON["excel"]["researcher_project_columns"]
+    sheet_name = JSON["excel"]["researcher_project_sheet_name"]
+    wb.create_sheet(sheet_name)
+    PROJECTS = wb.get_sheet_by_name(sheet_name)
+
+    PROJECTS.append(colunas_membro)
+    for i in range(len(itens)):
+        linha = [i+1]
+        linha.extend(itens[i])
+        PROJECTS.append(linha)
