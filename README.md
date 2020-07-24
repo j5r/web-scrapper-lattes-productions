@@ -10,7 +10,8 @@
 
 ### Execute com *python3 gui.pyw*
 
- - Linux: No terminal, execute **```python3 gui.pyw```**.
+ - Linux: No terminal, execute 
+ > **`python3 gui.pyw`**
 
  - Windows: Apenas dê um duplo clique no arquivo **```gui.pyw```** ou execute **```py gui.pyw```**
     no terminal (CMD ou PowerShell).
