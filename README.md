@@ -28,3 +28,9 @@ Você pode fazer no terminal
 
 Caso você esteja no Linux e não tenha o **pip3**, pode instalá-lo com
 > **`sudo apt-get install python3-pip`**
+
+
+## Personalizar
+Você pode personalizar o comportamento do app apenas alterando o arquivo **`/lattes/mglobal/configs.py`**. 
+Como exemplo, você pode alterar as dimensões da tela, e alterar os nomes das planilhas e os nomes das colunas
+de cada planilha.
