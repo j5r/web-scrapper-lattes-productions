@@ -6,6 +6,12 @@
 ## Como usar
   
   ![](lattes/help.png)
+
+## Resultado
+
+Segue um exemplo do resultado.
+
+  ![](lattes/exemplo.png)
   
 
 ### Execute com *python3 gui.pyw*
